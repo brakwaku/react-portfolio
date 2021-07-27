@@ -2,8 +2,9 @@ import heroimage from '../assets/background.jpg';
 import React from 'react';
 import NavBar from './Navbar';
 import styled from "styled-components";
+import { Animated } from "react-animated-css";
 
-// Styled component
+// Styled components
 const HeroWrapper = styled.div`
     min-height: 100vh;
     height: 100vh;
@@ -26,38 +27,41 @@ const HeroWrapper = styled.div`
 `;
 
 const HeroTitle = styled.div`
-    padding-top: 20vw;
+    padding-top: 17vw;
     color: white;
 `;
 
 const HeroName = styled.h1`
-    @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
     color: rgb(222,184,135);
-    // font-family: 'Hammersmith One', sans-serif;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: bolder;
+    font-size: 4.5rem;
 `;
 
 const HeroText = styled.h1`
+    font-family: 'Hammersmith One', sans-serif;
     color: #8892B0;
 `;
 
 
 
-
+// Component definition
 const Hero = () => {
     return (
         <HeroWrapper>
             <NavBar />
-            <HeroTitle>
-                Hello there, I am
-                <HeroName>
-                    Kwaku Appau-Nkansah.
-                </HeroName>
-                <HeroText>
-                    I am the gem you lose if ignored.
-                </HeroText>
-            </HeroTitle>
-        </HeroWrapper>
+            <Animated animationIn="fadeIn" animationInDuration="7600" isVisible={true}>
+                <HeroTitle>
+                    Hello there, I am
+                    <HeroName>
+                        Kwaku Appau-Nkansah,
+                    </HeroName>
+                    <HeroText>
+                        the gem you lose if ignored.
+                    </HeroText>
+                </HeroTitle>
+            </Animated>
+        </HeroWrapper >
     )
 }
 
