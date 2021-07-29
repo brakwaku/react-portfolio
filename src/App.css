@@ -12,3 +12,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+.myTabClass ul > li > a {
+  color: red;
+  display: flex;
+  flex-direction: row;
+}

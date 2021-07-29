@@ -1,14 +1,15 @@
-import profileImage from '../assets/profile.png';
+import profileImage from '../assets/profile.jpg';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import styled from "styled-components";
 import ScrollAnimation from 'react-animate-on-scroll';
+import breakpoint from '../breakpoints';
 
 const AboutMainWrapper = styled.div`
     background: linear-gradient(135deg, #44627D, #2C4458);
     color: #8892B0;
-    padding-top: 7vw;
-    padding-bottom: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 3vw;
 `;
 
 const AboutContentWrapper = styled.div`
@@ -17,11 +18,25 @@ const AboutContentWrapper = styled.div`
     gap: 50px;
     row-gap: 50px;
     column-gap: 50px;
+
+    @media only screen and ${breakpoint.device.xs}{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    @media only screen and ${breakpoint.device.sm}{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    @media only screen and ${breakpoint.device.lg}{
+        
+    }
 `;
 
 const AboutTitle = styled.h2`
     color: white;
-    font-family: 'Righteous', cursive;
+    ffont-family: 'Cabin Condensed', sans-serif;
 `;
 
 const AboutTextWrapper = styled.div`
@@ -29,7 +44,7 @@ const AboutTextWrapper = styled.div`
     border: 2px solid;
     border-radius: 10px;
     padding: 1rem;
-    font-family: 'Cabin Condensed', sans-serif;
+    // font-family: 'Cabin Condensed', sans-serif;
 `;
 
 const AboutPicWrapper = styled.div`
@@ -45,12 +60,16 @@ const ImageWrapper = styled.img`
 
 const SkillsListWrapper = styled.ul`
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(3, minmax(140px, 200px));
     gap: 0px 10px;
     padding: 0px;
     margin: 20px 0px 0px;
     overflow: hidden;
     list-style: none;
+
+    @media only screen and ${breakpoint.device.sm}{
+        grid-template-columns: repeat(2, minmax(140px, 200px));
+    }
 `;
 
 const SkillsList = styled.li`
@@ -60,10 +79,6 @@ const SkillsList = styled.li`
         content: "▹ ";
         color: #8892B0;
     }
-`;
-
-const MyContainer = styled(Container)`
-    position: relative;
 `;
 
 

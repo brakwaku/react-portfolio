@@ -2,7 +2,9 @@ import heroimage from '../assets/background.jpg';
 import React from 'react';
 import NavBar from './Navbar';
 import styled from "styled-components";
+import { Container } from 'react-bootstrap';
 import { Animated } from "react-animated-css";
+import breakpoint from '../breakpoints';
 
 // Styled components
 const HeroWrapper = styled.div`
@@ -24,11 +26,20 @@ const HeroWrapper = styled.div`
     background: linear-gradient(to bottom, rgba(0,0,0,.73), rgba(0,0,0,.7)),  url(${heroimage}) center no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
+    @media only screen and ${breakpoint.device.sm}{
+        padding: .5rem;
+    }
 `;
 
 const HeroTitle = styled.div`
-    padding-top: 17vw;
+    padding-top: 10vw;
     color: white;
+
+    > p {
+        font-size: 1.5rem;
+        margin-bottom: -.1rem;
+    }
 `;
 
 const HeroName = styled.h1`
@@ -36,6 +47,10 @@ const HeroName = styled.h1`
     font-family: 'Hammersmith One', sans-serif;
     font-weight: bolder;
     font-size: 4.5rem;
+
+    @media only screen and ${breakpoint.device.sm}{
+        font-size: 3.5rem;
+    }
 `;
 
 const HeroText = styled.h1`
@@ -52,7 +67,7 @@ const Hero = () => {
             <NavBar />
             <Animated animationIn="fadeIn" animationInDuration="7600" isVisible={true}>
                 <HeroTitle>
-                    Hello there, I am
+                    <p>Hello there, I am</p>
                     <HeroName>
                         Kwaku Appau-Nkansah,
                     </HeroName>
