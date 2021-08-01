@@ -1,10 +1,11 @@
 import equipMeImage from '../../assets/equipme.jpg';
+import live from '../../assets/live.png';
+import source from '../../assets/source.png';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import styled from "styled-components";
 import ScrollAnimation from 'react-animate-on-scroll';
 import breakpoint from '../../breakpoints';
-// import { MainContentWrapper, DescriptionWrapper, ProjectImageWrapper, PImageWrapper } from './Askas';
 
 const MainContentWrapper = styled.div`
     display: grid;
@@ -20,12 +21,31 @@ const MainContentWrapper = styled.div`
 `;
 
 const DescriptionWrapper = styled.div`
-    color: white;
+    color: #95a1c5;
 `;
 
 const ProjectImageWrapper = styled.div`
     height: auto;
     max-width: 100%;
+`;
+
+const IconsWrapper = styled.div`
+    display: flex;
+`;
+
+const EachIcon = styled.div`
+    > a > img {
+        margin: 0 3rem 0 0;
+        width: 2.5rem;
+        transition: all 1.4s;
+
+        &:hover {
+            transform: scale(1.4);
+            // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        }
+    }
+
+    
 `;
 
 const PImageWrapper = styled.img`
@@ -58,6 +78,10 @@ const EquipMe = () => {
                   company tools and employees. Users are able to add tools and assign 
                   them to employees.
                 </p>
+                <IconsWrapper>
+                    {/* <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank"><img src={live}/></a></EachIcon> */}
+                    <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank"><img src={source}/></a></EachIcon>
+                </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
                 <PImageWrapper src={equipMeImage} alt="ASKAS Project" />

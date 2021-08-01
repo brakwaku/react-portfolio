@@ -6,10 +6,12 @@ import Askas from './projects/Askas';
 import C9forlife from './projects/C9forlife';
 import EquipMe from './projects/EquipMe';
 import Others from './projects/Others';
+import ScrollAnimation from 'react-animate-on-scroll';
 import breakpoint from '../breakpoints';
 
 const ProjectsMainWrapper = styled.div`
-    background: #2C4458;
+    // background: #2C4458;
+    background: #1f3141;
     color: #8892B0;
     padding-top: 7vw;
     padding-bottom: 5vw;
@@ -23,14 +25,16 @@ const ProjectsContentWrapper = styled.div`
 `;
 
 const ProjectsTitle = styled.h2`
-    color: white;
-    font-family: 'Righteous', cursive;
+    color: #95a1c5;
+    font-family: 'Poppins', sans-serif;
+    // font-family: 'Righteous', cursive;
 `;
 
 
 const Projects = () => {
     return (
         <ProjectsMainWrapper id="projects">
+            <ScrollAnimation animateIn='fadeInUp'>
             <Container>
                 <ProjectsTitle>Projects</ProjectsTitle>
                 <ProjectsContentWrapper>
@@ -50,6 +54,7 @@ const Projects = () => {
                     </Tabs>
                 </ProjectsContentWrapper>
             </Container>
+            </ScrollAnimation>
         </ProjectsMainWrapper>
     )
 }

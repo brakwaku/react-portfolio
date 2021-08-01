@@ -26,6 +26,11 @@ const HeroWrapper = styled.div`
     background: linear-gradient(to bottom, rgba(0,0,0,.73), rgba(0,0,0,.7)),  url(${heroimage}) center no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    filter: grayscale(50%);
+
+    &:hover {
+        filter: none;
+    }
 
     @media only screen and ${breakpoint.device.sm}{
         padding: .5rem;

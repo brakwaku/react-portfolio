@@ -6,7 +6,8 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import breakpoint from '../breakpoints';
 
 const AboutMainWrapper = styled.div`
-    background: linear-gradient(135deg, #44627D, #2C4458);
+    // background: linear-gradient(135deg, #44627D, #2C4458);
+    background: #1d2f3f;
     color: #8892B0;
     padding-top: 5vw;
     padding-bottom: 3vw;
@@ -35,15 +36,25 @@ const AboutContentWrapper = styled.div`
 `;
 
 const AboutTitle = styled.h2`
-    color: white;
-    ffont-family: 'Cabin Condensed', sans-serif;
+    color: #95a1c5;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+
+    @media only screen and ${breakpoint.device.sm}{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
 `;
 
 const AboutTextWrapper = styled.div`
-    color: white;
-    border: 2px solid;
+    color: #95a1c5;
+    border: 2px solid #8892b088;
+    // border: 2px solid #8892B0;
+    border-width: .55rem 0 0 .18rem;
+    // border-width: .55rem .1rem .1rem .1rem;
     border-radius: 10px;
     padding: 1rem;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
     // font-family: 'Cabin Condensed', sans-serif;
 `;
 
@@ -54,8 +65,25 @@ const AboutPicWrapper = styled.div`
 const ImageWrapper = styled.img`
     height: auto;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
-    border: 6px solid rgb(222,184,135);
+    border: 2.5rem dashed #8892b088;
+    // border: 2.5rem dashed rgb(222,184,135);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.123), 0 0 6px rgba(0, 0, 0, 0.151);
+
+    filter: grayscale(100%);
+
+    &:hover {
+        filter: none;
+    }
+
+    @media only screen and ${breakpoint.device.sm}{
+        max-width: 60%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 `;
 
 const SkillsListWrapper = styled.ul`
@@ -76,8 +104,10 @@ const SkillsList = styled.li`
     // font-family: 'Josefin Slab', serif;
     font-family: 'Cabin Condensed', sans-serif;
     &:before {
-        content: "▹ ";
+        content: "☆ ";
+        // content: "▹ ";
         color: #8892B0;
+        font-size: .7rem;
     }
 `;
 

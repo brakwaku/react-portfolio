@@ -15,7 +15,36 @@
 
 
 .myTabClass ul > li > a {
-  color: red;
+  filter: hue-rotate(55%);
+  color: #1d3d57;
+  color: #95a1c5;
+  color: #8892b088;
+  color: #1f3141;
+  color: #143149;
   display: flex;
   flex-direction: row;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.123), 0 0 6px rgba(0, 0, 0, 0.151);
 }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #95a1c5;
+  background-color: #1d3d57;
+  border-color: #95a1c5;
+}
+
+.nav-item button {
+  color: #95a1c5;
+}
+
+.nav-tabs {
+  border-bottom: 2px solid #8892b088;
+}
+
+.nav-tabs .nav-link:hover{
+  color: #95a1c5;
+  border-color: #95a1c5;
+}
+
+/* @media only screen and (max-width: 600px) {
+
+} */
