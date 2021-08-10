@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Tab, Tabs } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import styled from "styled-components";
 import breakpoint from '../breakpoints';
 
@@ -58,11 +58,11 @@ const VerticalMenu = styled.div`
 export const ExperienceMenu = () => {
     return (
         <VerticalMenu>
-            <a href="#" class="active">Home</a>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
+            <a id="flexSim" href="#" class="active">FlexSim</a>
+            <a id="ldsChurch" href="#">LDS Church</a>
+            <a id="buildingFit" href="#">BuildingFit</a>
+            <a id="ds" href="#">Data Science</a>
+            <a id="mentor" href="#">Heber J. G</a>
         </VerticalMenu>
     )
 }
@@ -72,7 +72,7 @@ const Experiences = () => {
     return (
         <ExperiencesMainWrapper id="experiences">
             <Container>
-                <ExperiencesTitle>Experiences</ExperiencesTitle>
+                <ExperiencesTitle>Work Experience</ExperiencesTitle>
                 <ExperiencesContentWrapper>
                     <ExperienceMenu />
                     <ExperiencesContent></ExperiencesContent>

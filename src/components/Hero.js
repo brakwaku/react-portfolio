@@ -71,15 +71,17 @@ const Hero = () => {
         <HeroWrapper>
             <NavBar />
             <Animated animationIn="fadeIn" animationInDuration="7600" isVisible={true}>
-                <HeroTitle>
-                    <p>Hello there, I am</p>
-                    <HeroName>
-                        Kwaku Appau-Nkansah,
-                    </HeroName>
-                    <HeroText>
-                        the gem you lose if ignored.
-                    </HeroText>
-                </HeroTitle>
+                <Container>
+                    <HeroTitle>
+                        <p>Hello there, I am</p>
+                        <HeroName>
+                            Kwaku Appau-Nkansah,
+                        </HeroName>
+                        <HeroText>
+                            the gem you lose if ignored.
+                        </HeroText>
+                    </HeroTitle>
+                </Container>
             </Animated>
         </HeroWrapper >
     )

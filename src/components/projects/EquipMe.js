@@ -73,18 +73,20 @@ const EquipMe = () => {
         <MainContentWrapper>
             <DescriptionWrapper>
                 <p>
-                  Collaborative work with two other developers. This is an android 
-                  application written in Java. The application tracks inventory of 
-                  company tools and employees. Users are able to add tools and assign 
-                  them to employees.
+                    Collaborative work with two other developers. This is an android
+                    application written in Java. The application tracks inventory of
+                    company tools and employees. Users are able to add tools and assign
+                    them to employees.
                 </p>
                 <IconsWrapper>
                     {/* <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank"><img src={live}/></a></EachIcon> */}
-                    <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank"><img src={source}/></a></EachIcon>
+                    <EachIcon><a href="https://github.com/brakwaku/C9forlife-app" target="_blank"><img src={source} /></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <PImageWrapper src={equipMeImage} alt="ASKAS Project" />
+                <a href="https://github.com/brakwaku/equip-me" target="_blank">
+                    <PImageWrapper src={equipMeImage} alt="ASKAS Project" />
+                </a>
             </ProjectImageWrapper>
         </MainContentWrapper>
     )

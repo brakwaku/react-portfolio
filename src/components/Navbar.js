@@ -26,15 +26,16 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="#about">About</Nav.Link>
+                            <Nav.Link href="#about">Know More</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
-                            <NavDropdown title="Experiences" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#experiences">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+                            <Nav.Link href="#experiences">Experiences</Nav.Link>
+                            {/* <NavDropdown title="Experiences" id="basic-nav-dropdown">
+                                <NavDropdown.Item href="#flexSim">FlexSim</NavDropdown.Item>
+                                <NavDropdown.Item href="#ldsChurch">LDS Church</NavDropdown.Item>
+                                <NavDropdown.Item href="#buildingFit">BuildingFit</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">My Music</NavDropdown.Item>
-                            </NavDropdown>
+                                <NavDropdown.Item href="#ds">Data Science</NavDropdown.Item>
+                            </NavDropdown> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

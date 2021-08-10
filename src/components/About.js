@@ -122,8 +122,8 @@ const About = () => {
                     <AboutContentWrapper>
                         <AboutTextWrapper>
                             <p>
-                                My name is Theophilus Appau-Nkansah but usually called Kwaku.
-                                I am an innovative Software Engineer / Data Science student of Brigham Young
+                                My name is Theophilus Appau-Nkansah ( Kwaku ).
+                                I am an innovative Software Engineer / Data Scientist of Brigham Young
                                 University - Idaho (BYUI). I was exposed to programming in 2019 when I 
                                 took a C++ class about procedural programming and I loved it. I care 
                                 about solving problems and making things as simple as they can be for people so 

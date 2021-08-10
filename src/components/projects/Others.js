@@ -40,8 +40,10 @@ const IconWrapper = styled.div`
 `;
 
 const ProjTitle = styled.h4`
-    color: #95a1c5;
+    color: #aebbe4;
+    // color: #95a1c5;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 `;
 
 const TextWrapper = styled.div`

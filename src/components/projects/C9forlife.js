@@ -74,22 +74,24 @@ const C9forlife = () => {
         <MainContentWrapper>
             <DescriptionWrapper>
                 <p>
-                  A web application that serves as an environment for people who
-                  have any form of depression, PTSD, victims of abuse or trauma
-                  to interact with an administrator who cordinates activities. Users
-                  of the app are able to take and complete tasks as they get rewarded.
-                  They can also suggest activities that can be added by the administrator
-                  so that others can perform it too. The application uses technologies
-                  such as Node / Express Js, JavaScript, Custom CSS, Bootstrap, EJS and
-                  Database (MongoDB).
+                    A web application that serves as an environment for people who
+                    have any form of depression, PTSD, victims of abuse or trauma
+                    to interact with an administrator who cordinates activities. Users
+                    of the app are able to take and complete tasks as they get rewarded.
+                    They can also suggest activities that can be added by the administrator
+                    so that others can perform it too. The application uses technologies
+                    such as Node / Express Js, JavaScript, Custom CSS, Bootstrap, EJS and
+                    Database (MongoDB).
                 </p>
                 <IconsWrapper>
-                    <EachIcon><a href="https://c9forlife.herokuapp.com" target="_blank"><img src={live}/></a></EachIcon>
-                    <EachIcon><a href="https://github.com/brakwaku/C9forlife-app" target="_blank"><img src={source}/></a></EachIcon>
+                    <EachIcon><a href="https://c9forlife.herokuapp.com" target="_blank"><img src={live} /></a></EachIcon>
+                    <EachIcon><a href="https://github.com/brakwaku/C9forlife-app" target="_blank"><img src={source} /></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <PImageWrapper src={c9forlifeImage} alt="ASKAS Project" />
+                <a href="https://c9forlife.herokuapp.com" target="_blank">
+                    <PImageWrapper src={c9forlifeImage} alt="Cloud 9 for life Project" />
+                </a>
             </ProjectImageWrapper>
         </MainContentWrapper>
     )

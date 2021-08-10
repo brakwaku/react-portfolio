@@ -27,6 +27,7 @@ const ProjectsContentWrapper = styled.div`
 const ProjectsTitle = styled.h2`
     color: #95a1c5;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     // font-family: 'Righteous', cursive;
 `;
 
