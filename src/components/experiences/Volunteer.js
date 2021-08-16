@@ -28,8 +28,14 @@ const MainProjectWrapper = styled.div`
 
     &:hover {
         box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
-        transform: scale(1.031);
+        transform: scale(1.33);
         // transform: rotate(.2deg);
+    }
+
+    @media only screen and ${breakpoint.device.sm}{
+        &:hover {
+            transform: scale(1.03);
+        }
     }
 `;
 

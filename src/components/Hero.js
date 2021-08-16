@@ -1,4 +1,5 @@
 import heroimage from '../assets/background.jpg';
+import myResume from '../assets/resume.pdf';
 import React from 'react';
 import NavBar from './Navbar';
 import styled from "styled-components";
@@ -63,6 +64,42 @@ const HeroText = styled.h1`
     color: #8892B0;
 `;
 
+const CTAWrapper = styled.div`
+    display: flex;
+    gap: 5em;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #8892B0;
+    margin: 4em 0 0 0;
+
+    @media only screen and ${breakpoint.device.sm}{
+        margin: 1em 0 0 0;
+        gap: 1.2em;
+    }
+`;
+
+const ActionWrapper = styled.a`
+    text-decoration: none;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #8892B0;
+    padding: 1em 1.5em;
+    border: 2px solid rgb(222,184,135);
+    border-radius: 7px;
+
+    background: linear-gradient(to right, #aebbe46b 50%, #ffffff00 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+
+    &:hover {
+        color: white;
+        background-position:left bottom;
+        transition:all 1s ease;
+    }
+
+    @media only screen and ${breakpoint.device.sm}{
+        padding: .5em;
+    }
+`;
+
 
 
 // Component definition
@@ -80,6 +117,10 @@ const Hero = () => {
                         <HeroText>
                             the gem you lose if ignored.
                         </HeroText>
+                        <CTAWrapper>
+                            <ActionWrapper href="mailto:brakwakujr@gmail.com">Shoot me an email</ActionWrapper>
+                            <ActionWrapper href={myResume} target="_blank">My Resume</ActionWrapper>
+                        </CTAWrapper>
                     </HeroTitle>
                 </Container>
             </Animated>

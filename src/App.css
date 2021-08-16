@@ -34,11 +34,12 @@
   filter: hue-rotate(55%);
   color: #1d3d57;
   color: #95a1c5;
-  color: #aebbe4;
+  color: #aebbe46b;
   color: #8892b088;
   color: #1f3141;
   color: #143149;
   color: #676e74;
+  color: #ffffff00;
   display: flex;
   flex-direction: row;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.123), 0 0 6px rgba(0, 0, 0, 0.151);
@@ -102,7 +103,7 @@
 .react-tabs__tab--selected {
   background: #95a1c51c;
   /* border-color: #1c1d1f; */
-  border-left: 2px solid rgb(222,184,135);;
+  border-left: 2px solid rgb(222,184,135);
   color: rgb(222,184,135);
 }
 
@@ -147,7 +148,7 @@
   
   .react-tabs__tab--selected {
     background: #95a1c51c;
-    border-left: 0px solid rgb(222,184,135);;
+    border-left: 0px solid rgb(222,184,135);
   }
   
   .react-tabs__tab-panel {
@@ -181,7 +182,7 @@
   
   .react-tabs__tab--selected {
     background: #95a1c51c;
-    border-left: 0px solid rgb(222,184,135);;
+    border-left: 0px solid rgb(222,184,135);
   }
   
   .react-tabs__tab-panel {
