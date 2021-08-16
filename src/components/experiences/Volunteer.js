@@ -133,7 +133,7 @@ const Volunteer = () => {
                 </IconWrapper>
                 <TextWrapper>
                     <ExperienceListWrapper>
-                        <ExperienceList>Worked with team members to provide education supplies for children in need. <a href="www.buildingfit.com">website</a></ExperienceList>
+                        <ExperienceList>Worked with team members to provide education supplies for children in need.</ExperienceList>
                         <ExperienceList>Led event planning and execution of plans despite a lack of resources.</ExperienceList>
                         <ExperienceList>Collaborated with executives to create an environment that promotes self motivation by volunteers.</ExperienceList>
                     </ExperienceListWrapper>
