@@ -39,7 +39,7 @@ const Projects = () => {
             <Container>
                 <ProjectsTitle>Projects</ProjectsTitle>
                 <ProjectsContentWrapper>
-                    <Tabs defaultActiveKey="askas" className="mb-3 myTabClass">
+                    <Tabs defaultActiveKey="askas" className="mb-3">
                         <Tab eventKey="askas" title="ASKAS">
                             <Askas/>
                         </Tab>
