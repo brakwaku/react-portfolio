@@ -2,9 +2,7 @@ import askasImage from '../../assets/askas.jpg';
 import live from '../../assets/live.png';
 import source from '../../assets/source.png';
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import styled from "styled-components";
-import ScrollAnimation from 'react-animate-on-scroll';
 import breakpoint from '../../breakpoints';
 
 const MainContentWrapper = styled.div`
@@ -82,12 +80,12 @@ const Askas = () => {
                     Database (MongoDB).
                 </p>
                 <IconsWrapper>
-                    <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank"><img src={live}/></a></EachIcon>
-                    <EachIcon><a href="https://github.com/brakwaku/byuibroadcastaudio" target="_blank"><img src={source}/></a></EachIcon>
+                    <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank" rel="noreferrer"><img src={live} alt="byuibroadcastaudio"/></a></EachIcon>
+                    <EachIcon><a href="https://github.com/brakwaku/byuibroadcastaudio" target="_blank" rel="noreferrer"><img src={source} alt="byuibroadcastaudio Github"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <a href="https://byuibroadcastaudio.herokuapp.com" target="_blank">
+                <a href="https://byuibroadcastaudio.herokuapp.com" target="_blank" rel="noreferrer">
                     <PImageWrapper src={askasImage} alt="ASKAS Project" />
                 </a>
             </ProjectImageWrapper>

@@ -1,8 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../../App.css';
-import { Container } from 'react-bootstrap';
 import styled from "styled-components";
-import { Animated } from "react-animated-css";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import BuildingFit from '../experiences/BuildingFit';
 import FlexSim from '../experiences/FlexSim';

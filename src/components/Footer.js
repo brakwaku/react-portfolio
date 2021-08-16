@@ -44,16 +44,16 @@ const Footer = () => {
         <FooterContentWrapper id="footer">
             <FooterWrapper>
                 <FooterLinksWrapper>
-                    <a href="https://www.linkedin.com/in/theophilus-kwaku-appau-nkansah-b57393a2" target="_blank">
+                    <a href="https://www.linkedin.com/in/theophilus-kwaku-appau-nkansah-b57393a2" target="_blank" rel="noreferrer">
                         <i class="fa fa-linkedin fa-inverse"></i>
                     </a>
-                    <a href="https://github.com/brakwaku" target="_blank">
+                    <a href="https://github.com/brakwaku" target="_blank" rel="noreferrer">
                         <i class="fa fa-github fa-inverse"></i>
                     </a>
-                    <a href="https://www.facebook.com/brakwakumusic" target="_blank">
+                    <a href="https://www.facebook.com/brakwakumusic" target="_blank" rel="noreferrer">
                         <i class="fa fa-facebook fa-inverse"></i>
                     </a>
-                    <a href="https://www.facebook.com/brakwakumusic" target="_blank">
+                    <a href="https://www.facebook.com/brakwakumusic" target="_blank" rel="noreferrer">
                         <i class="fa fa-instagram fa-inverse"></i>
                     </a>
                 </FooterLinksWrapper>

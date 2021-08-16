@@ -2,9 +2,7 @@ import c9forlifeImage from '../../assets/c9forlife.jpg';
 import live from '../../assets/live.png';
 import source from '../../assets/source.png';
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import styled from "styled-components";
-import ScrollAnimation from 'react-animate-on-scroll';
 import breakpoint from '../../breakpoints';
 
 const MainContentWrapper = styled.div`
@@ -84,12 +82,12 @@ const C9forlife = () => {
                     Database (MongoDB).
                 </p>
                 <IconsWrapper>
-                    <EachIcon><a href="https://c9forlife.herokuapp.com" target="_blank"><img src={live} /></a></EachIcon>
-                    <EachIcon><a href="https://github.com/brakwaku/C9forlife-app" target="_blank"><img src={source} /></a></EachIcon>
+                    <EachIcon><a href="https://c9forlife.herokuapp.com" target="_blank" rel="noreferrer"><img src={live} alt="C9ForLife"/></a></EachIcon>
+                    <EachIcon><a href="https://github.com/brakwaku/C9forlife-app" target="_blank" rel="noreferrer"><img src={source} alt="C9ForLife Github"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <a href="https://c9forlife.herokuapp.com" target="_blank">
+                <a href="https://c9forlife.herokuapp.com" target="_blank" rel="noreferrer">
                     <PImageWrapper src={c9forlifeImage} alt="Cloud 9 for life Project" />
                 </a>
             </ProjectImageWrapper>

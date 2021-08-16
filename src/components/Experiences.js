@@ -1,8 +1,9 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
 import styled from "styled-components";
 import breakpoint from '../breakpoints';
-import LineMenu, { LineMenuItem } from './features/LineMenu';
+import LineMenu from './features/LineMenu';
 
 const ExperiencesMainWrapper = styled.div`
     background: #1d2f3f;
@@ -38,12 +39,16 @@ const ExperiencesTitle = styled.h2`
 const Experiences = () => {
     return (
         <ExperiencesMainWrapper id="experiences">
-            <Container>
-                <ExperiencesTitle>Work Experience</ExperiencesTitle>
-                <ExperiencesContentWrapper>
-                    <LineMenu />
-                </ExperiencesContentWrapper>
-            </Container>
+
+            <ScrollAnimation animateIn='fadeInUp'>
+                <Container>
+                    <ExperiencesTitle>Work Experience</ExperiencesTitle>
+                    <ExperiencesContentWrapper>
+                        <LineMenu />
+                    </ExperiencesContentWrapper>
+                </Container>
+
+            </ScrollAnimation>
         </ExperiencesMainWrapper>
     )
 }

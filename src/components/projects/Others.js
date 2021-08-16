@@ -81,8 +81,8 @@ const Others = () => {
             <MainProjectWrapper>
                 <IconWrapper>
                     <EachIcon>
-                        <a href="https://github.com/brakwaku/CSharp-Sacrament-Meeting-Planner" target="_blank">
-                            <img src={source} />
+                        <a href="https://github.com/brakwaku/CSharp-Sacrament-Meeting-Planner" target="_blank" rel="noreferrer">
+                            <img src={source} alt="Github Repo"/>
                         </a>
                     </EachIcon>
                     <ProjTitle>Sacrament Meeting Planner</ProjTitle>
@@ -104,8 +104,8 @@ const Others = () => {
             <MainProjectWrapper>
                 <IconWrapper>
                     <EachIcon>
-                        <a href="https://github.com/brakwaku/Ananses3mFrontend" target="_blank">
-                            <img src={source} />
+                        <a href="https://github.com/brakwaku/Ananses3mFrontend" target="_blank" rel="noreferrer">
+                            <img src={source} alt="Github Repo"/>
                         </a>
                     </EachIcon>
                     <ProjTitle>Anansesɛm Store</ProjTitle>
@@ -131,8 +131,8 @@ const Others = () => {
             <MainProjectWrapper>
                 <IconWrapper>
                     <EachIcon>
-                        <a href="https://github.com/brakwaku/react-interface" target="_blank">
-                            <img src={source} />
+                        <a href="https://github.com/brakwaku/react-interface" target="_blank" rel="noreferrer">
+                            <img src={source} alt="Github Repo"/>
                         </a>
                     </EachIcon>
                     <ProjTitle>Appointments Organizer</ProjTitle>
@@ -158,8 +158,8 @@ const Others = () => {
             <MainProjectWrapper>
                 <IconWrapper>
                     <EachIcon>
-                        <a href="https://github.com/brakwaku/house-year_predict" target="_blank">
-                            <img src={source} />
+                        <a href="https://github.com/brakwaku/house-year_predict" target="_blank" rel="noreferrer">
+                            <img src={source} alt="Github Repo"/>
                         </a>
                     </EachIcon>
                     <ProjTitle>Year Predictor</ProjTitle>

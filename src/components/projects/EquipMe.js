@@ -1,10 +1,7 @@
 import equipMeImage from '../../assets/equipme.jpg';
-import live from '../../assets/live.png';
 import source from '../../assets/source.png';
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import styled from "styled-components";
-import ScrollAnimation from 'react-animate-on-scroll';
 import breakpoint from '../../breakpoints';
 
 const MainContentWrapper = styled.div`
@@ -80,11 +77,11 @@ const EquipMe = () => {
                 </p>
                 <IconsWrapper>
                     {/* <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank"><img src={live}/></a></EachIcon> */}
-                    <EachIcon><a href="https://github.com/brakwaku/C9forlife-app" target="_blank"><img src={source} /></a></EachIcon>
+                    <EachIcon><a href="https://github.com/brakwaku/C9forlife-app" target="_blank" rel="noreferrer"><img src={source} alt="Equip Me"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <a href="https://github.com/brakwaku/equip-me" target="_blank">
+                <a href="https://github.com/brakwaku/equip-me" target="_blank" rel="noreferrer">
                     <PImageWrapper src={equipMeImage} alt="ASKAS Project" />
                 </a>
             </ProjectImageWrapper>

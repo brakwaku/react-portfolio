@@ -60,7 +60,7 @@ const BYUIAudio = () => {
             <ExpTitle>Administrative Assistant | <h6>BYU-Idaho Av Production</h6></ExpTitle>
             <TimeFrame>July 2019 - Present</TimeFrame>
             <ExperienceListWrapper>
-                <ExperienceList>Devised a NodeJS web application to track work hours and tasks assigned to employees. <a href="#"> Source Code</a></ExperienceList>
+                <ExperienceList>Devised a NodeJS web application to track work hours and tasks assigned to employees. <a href="https://github.com/brakwaku/byuibroadcastaudio"> Source Code</a></ExperienceList>
                 <ExperienceList>Boosted workflow and efficiency with monthly inventory sheets employing Microsoft office tools.</ExperienceList>
                 <ExperienceList>Process audio files with Avid Pro Tools to enhance consumer satisfaction and engagement by 99%.</ExperienceList>
                 <ExperienceList>Created monthly inventory sheets with Microsoft Excel to keep track of gear and for training purposes.</ExperienceList>

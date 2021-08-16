@@ -17,14 +17,14 @@ const ToolTipText = styled.div`
     opacity: .8;
 `;
 
-const ToolTipArrow = styled.span`
-    position: absolute;
-    top: -10px;
-    left: 5%;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
-`;
+// const ToolTipArrow = styled.span`
+//     position: absolute;
+//     top: -10px;
+//     left: 5%;
+//     border-width: 5px;
+//     border-style: solid;
+//     border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+// `;
 
 /**
  *  Add this to your css file

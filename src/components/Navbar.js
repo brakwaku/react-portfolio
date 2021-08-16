@@ -1,7 +1,7 @@
 import logo from '../assets/logo.svg';
 import React from 'react';
 import '../App.css';
-import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 import styled from "styled-components";
 import { Animated } from "react-animated-css";
 import MyTooltip from './features/ToolTip';
@@ -31,13 +31,6 @@ const NavBar = () => {
                             <Nav.Link href="#projects">Projects</Nav.Link>
                             <Nav.Link href="#experiences">Experiences</Nav.Link>
                             <Nav.Link href="#footer">Contact</Nav.Link>
-                            {/* <NavDropdown title="Experiences" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#flexSim">FlexSim</NavDropdown.Item>
-                                <NavDropdown.Item href="#ldsChurch">LDS Church</NavDropdown.Item>
-                                <NavDropdown.Item href="#buildingFit">BuildingFit</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#ds">Data Science</NavDropdown.Item>
-                            </NavDropdown> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

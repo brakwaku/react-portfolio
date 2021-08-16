@@ -121,7 +121,7 @@ const Hero = () => {
                         </HeroText>
                         <CTAWrapper>
                             <ActionWrapper href="mailto:brakwakujr@gmail.com">Shoot me an email</ActionWrapper>
-                            <ActionWrapper href={myResume} target="_blank">My Resume</ActionWrapper>
+                            <ActionWrapper href={myResume} target="_blank" rel="noreferrer">My Resume</ActionWrapper>
                         </CTAWrapper>
                     </HeroTitle>
                 </Container>
