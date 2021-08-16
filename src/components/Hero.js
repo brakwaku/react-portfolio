@@ -80,7 +80,9 @@ const CTAWrapper = styled.div`
 const ActionWrapper = styled.a`
     text-decoration: none;
     font-family: 'Hammersmith One', sans-serif;
-    color: #8892B0;
+    // color: rgb(36, 145, 36);
+    // color: rgb(13, 145, 13);
+    color: #97a2c5;
     padding: 1em 1.5em;
     border: 2px solid rgb(222,184,135);
     border-radius: 7px;
@@ -90,7 +92,7 @@ const ActionWrapper = styled.a`
     background-position:right bottom;
 
     &:hover {
-        color: white;
+        color: #b6c3ee;
         background-position:left bottom;
         transition:all 1s ease;
     }

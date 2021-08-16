@@ -30,7 +30,7 @@ const NavBar = () => {
                             <Nav.Link href="#about">Know More</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
                             <Nav.Link href="#experiences">Experiences</Nav.Link>
-                            <Nav.Link href="#contact">Contact</Nav.Link>
+                            <Nav.Link href="#footer">Contact</Nav.Link>
                             {/* <NavDropdown title="Experiences" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#flexSim">FlexSim</NavDropdown.Item>
                                 <NavDropdown.Item href="#ldsChurch">LDS Church</NavDropdown.Item>

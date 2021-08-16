@@ -18,18 +18,16 @@ const OutterWrapper = styled.div`
 
 const MainProjectWrapper = styled.div`
     background: #143149;
-    // background: #8892B0;
     color: #95a1c5;
     padding: 1.5rem;
     border-radius: 10px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    transition: all 0.2s ease-out;
+    transition: all 0.7s ease-out;
     // transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.5s box-shadow, 0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
 
     &:hover {
         box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
-        transform: scale(1.33);
-        // transform: rotate(.2deg);
+        transform: scale(1.2);
     }
 
     @media only screen and ${breakpoint.device.sm}{
@@ -45,7 +43,6 @@ const IconWrapper = styled.div`
 
 const ProjTitle = styled.h6`
     color: #aebbe4;
-    // color: #95a1c5;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 `;
@@ -58,6 +55,7 @@ const TechnologiesWrapper = styled.div`
     font-size: .67rem;
     opacity: .7;
     display: flex;
+    margin: 1rem 0 0 0;
 
     > p {
         margin: 0 2rem 0 0;
@@ -112,7 +110,7 @@ const Volunteer = () => {
         <OutterWrapper>
             <MainProjectWrapper>
                 <IconWrapper>
-                    <ProjTitle>Heber J. Grant Mentor</ProjTitle>
+                    <ProjTitle>BYU-I | Heber J. Grant Mentor</ProjTitle>
                 </IconWrapper>
                 <TextWrapper>
                     <ExperienceListWrapper>
@@ -122,32 +120,35 @@ const Volunteer = () => {
                     </ExperienceListWrapper>
                     <TechnologiesWrapper>
                         <p>Service</p>
-                        <p>Hope</p>
-                        <p>Teacher</p>
+                        <p>Time Management</p>
+                        <p>Communication</p>
+                        <p>Motivation</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
             </MainProjectWrapper>
 
             <MainProjectWrapper>
                 <IconWrapper>
-                    <ProjTitle>Children Are Reason Enough</ProjTitle>
+                    <ProjTitle>Children Are Reason Enough | Volunteer</ProjTitle>
                 </IconWrapper>
                 <TextWrapper>
                     <ExperienceListWrapper>
-                        <ExperienceList>Collaborated with other developers to build a modern <a href="www.buildingfit.com">website</a> for the company.</ExperienceList>
-                        <ExperienceList>Leverage HTML, CSS, JS and WP to build a website consistent with UX design best practices.</ExperienceList>
-                        <ExperienceList>Collaborated efforts through regular meetings and consultation in an agile development environment.</ExperienceList>
+                        <ExperienceList>Worked with team members to provide education supplies for children in need. <a href="www.buildingfit.com">website</a></ExperienceList>
+                        <ExperienceList>Led event planning and execution of plans despite a lack of resources.</ExperienceList>
+                        <ExperienceList>Collaborated with executives to create an environment that promotes self motivation by volunteers.</ExperienceList>
                     </ExperienceListWrapper>
                     <TechnologiesWrapper>
-                        <p>Principle 1</p>
-                        <p>Principle 2</p>
+                        <p>Time Management</p>
+                        <p>Leadership</p>
+                        <p>Self motivation</p>
+                        <p>Service</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
             </MainProjectWrapper>
 
             <MainProjectWrapper>
                 <IconWrapper>
-                    <ProjTitle>BuildingFit</ProjTitle>
+                    <ProjTitle>BuildingFit | Fullstack developer</ProjTitle>
                 </IconWrapper>
                 <TextWrapper>
                     <ExperienceListWrapper>
@@ -158,7 +159,8 @@ const Volunteer = () => {
                     <TechnologiesWrapper>
                         <p>Team-work</p>
                         <p>Self motivation</p>
-                        <p>Scrum</p>
+                        <p>Innovation</p>
+                        <p>Problem-solving</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
             </MainProjectWrapper>
@@ -167,17 +169,20 @@ const Volunteer = () => {
                 <IconWrapper>
                     <EachIcon>
                     </EachIcon>
-                    <ProjTitle>Music Teacher</ProjTitle>
+                    <ProjTitle>Self Reliance Center | Supervisor & Mentor</ProjTitle>
                 </IconWrapper>
                 <TextWrapper>
                     <ExperienceListWrapper>
-                        <ExperienceList>Collaborated with other developers to build a modern <a href="www.buildingfit.com">website</a> for the company.</ExperienceList>
-                        <ExperienceList>Leverage HTML, CSS, JS and WP to build a website consistent with UX design best practices.</ExperienceList>
-                        <ExperienceList>Collaborated efforts through regular meetings and consultation in an agile development environment.</ExperienceList>
+                        <ExperienceList>Developed leadership, speaking and presentation skills to educate 8 service leaders.</ExperienceList>
+                        <ExperienceList>Mentored patrons on possible great educational and career paths for a better future.</ExperienceList>
+                        <ExperienceList>Collaborated with permanent staff to enhance center productivity and efficiency.</ExperienceList>
                     </ExperienceListWrapper>
                     <TechnologiesWrapper>
-                        <p>Principle 1</p>
-                        <p>Principle 2</p>
+                        <p>Communication</p>
+                        <p>Leadership</p>
+                        <p>Training</p>
+                        <p>Mentorship</p>
+                        <p>Time Management</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
             </MainProjectWrapper>

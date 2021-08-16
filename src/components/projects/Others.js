@@ -104,25 +104,26 @@ const Others = () => {
             <MainProjectWrapper>
                 <IconWrapper>
                     <EachIcon>
-                        <a href="https://github.com/brakwaku/byuibroadcastaudio" target="_blank">
+                        <a href="https://github.com/brakwaku/Ananses3mFrontend" target="_blank">
                             <img src={source} />
                         </a>
                     </EachIcon>
-                    <ProjTitle>Project Title</ProjTitle>
+                    <ProjTitle>Anansesɛm Store</ProjTitle>
                 </IconWrapper>
                 <TextWrapper>
                     <p>
-                        A web application that is used by a supervisor and his subordinates to
-                        keep track of the hours worked and the tasks they worked on. This
-                        application was developed because the supervisor had to create an excel
-                        document every week and provide a link for the subordinates to enter their
-                        hours worked and what they worked on. The application uses technologies
-                        such as Node / Express Js, JavaScript, Custom CSS, Bootstrap, EJS and
-                        Database (MongoDB).
+                        An ecommerce web application that displays items sold by the company. The application
+                        has an admin page where administrators can add and remove items. Users can add and
+                        remove items from their cart and place orders. The application uses technologies
+                        such as Node / Express Js, JavaScript, Custom CSS, Bootstrap, Vue and
+                        Database management.
                     </p>
                     <TechnologiesWrapper>
-                        <p>Tech 1</p>
-                        <p>Tech 2</p>
+                        <p>Vue</p>
+                        <p>JavaScript</p>
+                        <p>CSS</p>
+                        <p>HTML</p>
+                        <p>Bootstrap</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
             </MainProjectWrapper>
@@ -130,25 +131,26 @@ const Others = () => {
             <MainProjectWrapper>
                 <IconWrapper>
                     <EachIcon>
-                        <a href="https://github.com/brakwaku/byuibroadcastaudio" target="_blank">
+                        <a href="https://github.com/brakwaku/react-interface" target="_blank">
                             <img src={source} />
                         </a>
                     </EachIcon>
-                    <ProjTitle>Project Title</ProjTitle>
+                    <ProjTitle>Appointments Organizer</ProjTitle>
                 </IconWrapper>
                 <TextWrapper>
                     <p>
-                        A web application that is used by a supervisor and his subordinates to
-                        keep track of the hours worked and the tasks they worked on. This
-                        application was developed because the supervisor had to create an excel
-                        document every week and provide a link for the subordinates to enter their
-                        hours worked and what they worked on. The application uses technologies
-                        such as Node / Express Js, JavaScript, Custom CSS, Bootstrap, EJS and
-                        Database (MongoDB).
+                        A web application that is used to set appointments for an animal doctor.
+                        The application collects information such as the name of the animal,
+                        the name of its ownwer, time of the appointment and date of the appointment.
+                        Appointments can be created, deleted, sorted and searched on the fly. The application uses technologies
+                        such as Node / Express Js, Custom CSS, Bootstrap, and
+                        React Js.
                     </p>
                     <TechnologiesWrapper>
-                        <p>Tech 1</p>
-                        <p>Tech 2</p>
+                        <p>Node Js</p>
+                        <p>React Js</p>
+                        <p>CSS</p>
+                        <p>Bootstrap</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
             </MainProjectWrapper>
@@ -156,25 +158,25 @@ const Others = () => {
             <MainProjectWrapper>
                 <IconWrapper>
                     <EachIcon>
-                        <a href="https://github.com/brakwaku/byuibroadcastaudio" target="_blank">
+                        <a href="https://github.com/brakwaku/house-year_predict" target="_blank">
                             <img src={source} />
                         </a>
                     </EachIcon>
-                    <ProjTitle>Project Title</ProjTitle>
+                    <ProjTitle>Year Predictor</ProjTitle>
                 </IconWrapper>
                 <TextWrapper>
                     <p>
-                        A web application that is used by a supervisor and his subordinates to
-                        keep track of the hours worked and the tasks they worked on. This
-                        application was developed because the supervisor had to create an excel
-                        document every week and provide a link for the subordinates to enter their
-                        hours worked and what they worked on. The application uses technologies
-                        such as Node / Express Js, JavaScript, Custom CSS, Bootstrap, EJS and
-                        Database (MongoDB).
+                        A machine learning model that predicts the year a house was built based on some
+                        variables provided by the data. It also looks at some possible relationships between the 
+                        various variables. The model uses python libraries such as pandas, numpy, seaborn,
+                        altair and sklearn.
                     </p>
                     <TechnologiesWrapper>
-                        <p>Tech 1</p>
-                        <p>Tech 2</p>
+                        <p>Python</p>
+                        <p>Pandas</p>
+                        <p>Seaborn</p>
+                        <p>Sklearn</p>
+                        <p>Numpy</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
             </MainProjectWrapper>

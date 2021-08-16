@@ -41,7 +41,7 @@ const FooterLinksWrapper = styled.div`
 
 const Footer = () => {
     return (
-        <FooterContentWrapper>
+        <FooterContentWrapper id="footer">
             <FooterWrapper>
                 <FooterLinksWrapper>
                     <a href="https://www.linkedin.com/in/theophilus-kwaku-appau-nkansah-b57393a2" target="_blank">
