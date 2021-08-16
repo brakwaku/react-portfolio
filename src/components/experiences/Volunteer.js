@@ -17,6 +17,7 @@ const OutterWrapper = styled.div`
 `;
 
 const MainProjectWrapper = styled.div`
+    // max-width: 92%;
     background: #143149;
     color: #95a1c5;
     padding: 1.5rem;
@@ -55,11 +56,9 @@ const TechnologiesWrapper = styled.div`
     font-size: .67rem;
     opacity: .7;
     display: flex;
+    flex-wrap: wrap;
     margin: 1rem 0 0 0;
-
-    > p {
-        margin: 0 2rem 0 0;
-    }
+    gap: 1rem;
 `;
 
 const EachIcon = styled.div`
