@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import styled from "styled-components";
 import breakpoint from '../breakpoints';
+import LineMenu, { LineMenuItem } from './features/LineMenu';
 
 const ExperiencesMainWrapper = styled.div`
     background: #1d2f3f;
@@ -17,14 +18,11 @@ const ExperiencesMainWrapper = styled.div`
 `;
 
 const ExperiencesContentWrapper = styled.div`
-    display: flex;
-`;
-
-const ExperiencesContent = styled.div`
-    display: flex;
+    // display: flex;
 `;
 
 const ExperiencesTitle = styled.h2`
+    margin: 0 0 1rem 0;
     color: #95a1c5;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
@@ -36,37 +34,6 @@ const ExperiencesTitle = styled.h2`
     }
 `;
 
-const VerticalMenu = styled.div`
-    > a {
-        background-color: #eee;
-        color: black;
-        display: block;
-        padding: 12px;
-        text-decoration: none;
-    }
-
-    > a:hover {
-        background-color: #ccc;
-    }
-
-    > a:active {
-        background-color: #04AA6D;
-        color: white;
-    }
-`;
-
-export const ExperienceMenu = () => {
-    return (
-        <VerticalMenu>
-            <a id="flexSim" href="#" class="active">FlexSim</a>
-            <a id="ldsChurch" href="#">LDS Church</a>
-            <a id="buildingFit" href="#">BuildingFit</a>
-            <a id="ds" href="#">Data Science</a>
-            <a id="mentor" href="#">Heber J. G</a>
-        </VerticalMenu>
-    )
-}
-
 
 const Experiences = () => {
     return (
@@ -74,19 +41,7 @@ const Experiences = () => {
             <Container>
                 <ExperiencesTitle>Work Experience</ExperiencesTitle>
                 <ExperiencesContentWrapper>
-                    <ExperienceMenu />
-                    <ExperiencesContent></ExperiencesContent>
-                    {/* <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-4 col3">
-                        <Tab eventKey="home" title="Home">
-                            Home
-                        </Tab>
-                        <Tab eventKey="profile" title="Profile">
-                            Profile
-                        </Tab>
-                        <Tab eventKey="contact" title="Contact">
-                            Contact
-                        </Tab>
-                    </Tabs> */}
+                    <LineMenu />
                 </ExperiencesContentWrapper>
             </Container>
         </ExperiencesMainWrapper>

@@ -1,34 +1,15 @@
 import logo from '../assets/logo.svg';
-import React, { useState } from 'react';
+import React from 'react';
 import '../App.css';
 import { Nav, Navbar, NavDropdown, Container } from 'react-bootstrap';
 import styled from "styled-components";
 import { Animated } from "react-animated-css";
+import MyTooltip from './features/ToolTip';
 
 
 const NavbarWrapper = styled(Container)`
     padding-top: 1.5rem;
 `;
-
-export const MyTooltip = ({ children, text, ...rest }) => {
-    const [show, setShow] = useState(false);
-
-    return (
-        <div className="tooltip-container">
-
-            <div className={show ? 'tooltip-box visible' : 'tooltip-box'}>
-                <Animated animationIn="fadeIn" animationInDuration="5000" isVisible={true}>
-                    <span className="tooltip-arrow" />
-                    <span className="tooltext">{text}</span>
-                </Animated>
-            </div>
-            <div onMouseEnter={() => setShow(true)} onMouseLeave={() => setShow(false)}
-                {...rest} >
-                {children}
-            </div>
-        </div>
-    );
-};
 
 const NavBar = () => {
     const text = "Ananse Ntontan (a-NAN-Se N-ton-TAN) literally means Spider's Web. It is a symbol of wisdom, creativity, and the complexities of life. Wisdom relates to experience, knowledge, and good judgment in decision-making and taking action.";
