@@ -45,6 +45,34 @@
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.123), 0 0 6px rgba(0, 0, 0, 0.151);
 }
 
+/***
+* Footer font awesome icons
+****/
+
+.fa-linkedin {
+  color: #828dad9c;;
+}
+
+.fa-github {
+  color: #828dad9c;
+}
+
+.fa-facebook {
+  color: #828dad9c;
+}
+
+.fa-instagram {
+  color: #828dad9c;
+}
+
+.fa-paper-plane {
+  color: #828dad9c;
+}
+
+.fa-spotify {
+  color: #828dad9c;
+}
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #95a1c5;
   background-color: #1d3d57;
