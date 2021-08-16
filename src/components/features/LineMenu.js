@@ -10,6 +10,7 @@ import LDSChurch from '../experiences/LDSChurch';
 import BYUIAudio from '../experiences/BYUIAudio';
 import ExcessEra from '../experiences/ExcessEra';
 import Rogmoth from '../experiences/Rogmoth';
+import Volunteer from '../experiences/Volunteer';
 import breakpoint from '../../breakpoints';
 
 const PanelContent = styled.div`
@@ -44,6 +45,9 @@ const LineMenu = () => {
                 <Tab>
                     <TabContent>Rogmoth</TabContent>
                 </Tab>
+                <Tab>
+                    <TabContent>Volunteer</TabContent>
+                </Tab>
             </TabList>
 
             <TabPanel>
@@ -74,6 +78,11 @@ const LineMenu = () => {
             <TabPanel>
                 <PanelContent>
                     <Rogmoth />
+                </PanelContent>
+            </TabPanel>
+            <TabPanel>
+                <PanelContent>
+                    <Volunteer />
                 </PanelContent>
             </TabPanel>
         </Tabs>

@@ -57,12 +57,13 @@ const ExperienceList = styled.li`
 const FlexSim = () => {
     return (
         <ExpMainWrapper>
-            <ExpTitle>Software Engineer | <h6>FlexSim</h6></ExpTitle>
+            <ExpTitle>Software Developer | <h6>FlexSim Software Products, Inc.</h6></ExpTitle>
             <TimeFrame>April 2021 - Present</TimeFrame>
             <ExperienceListWrapper>
-                <ExperienceList>Devised a NodeJS web application to track work hours and tasks assigned to employees. <a href="#"> Source Code</a></ExperienceList>
-                <ExperienceList>Boosted workflow and efficiency with monthly inventory sheets employing Microsoft office tools.</ExperienceList>
-                <ExperienceList>Process audio files with Avid Pro Tools to enhance consumer satisfaction and engagement by 99%.</ExperienceList>
+                <ExperienceList>Partnered in developing web applications and components utilizing PHP, Laravel / Livewire, Tailwind and Alpine Js</ExperienceList>
+                <ExperienceList>Utilizing Eloquent models for easier and faster interaction with database.</ExperienceList>
+                <ExperienceList>Partnered with teammates utilizing GIT version control.</ExperienceList>
+                <ExperienceList>Wrote unit tests using PHPUnit to ensure quality components and products.</ExperienceList>
             </ExperienceListWrapper>
         </ExpMainWrapper>
     )

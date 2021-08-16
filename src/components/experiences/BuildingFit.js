@@ -60,7 +60,7 @@ const BuildingFit = () => {
             <ExpTitle>Web & Full Stack Developer | <h6>BuildingFit LLC</h6></ExpTitle>
             <TimeFrame>Sept. 2020 - Dec 2020</TimeFrame>
             <ExperienceListWrapper>
-                <ExperienceList>Cooperated team efforts to create modern responsive company <a href="buildingfit.com">website</a> in an agile development environment</ExperienceList>
+                <ExperienceList>Cooperated team efforts to create modern responsive company <a href="www.buildingfit.com">website</a> in an agile development environment</ExperienceList>
                 <ExperienceList>Leverage HTML, CSS, JavaScript and WordPress to build a website consistent with UX design best practices.</ExperienceList>
                 <ExperienceList>Implement effective SEO principles to attract more useful web traffic.</ExperienceList>
             </ExperienceListWrapper>
