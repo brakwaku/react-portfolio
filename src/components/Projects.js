@@ -4,6 +4,7 @@ import '../App.css';
 import styled from "styled-components";
 import Askas from './projects/Askas';
 import C9forlife from './projects/C9forlife';
+import Ananses3m from './projects/Ananses3m';
 import EquipMe from './projects/EquipMe';
 import Others from './projects/Others';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -42,6 +43,9 @@ const Projects = () => {
                     <Tabs defaultActiveKey="askas" className="mb-3">
                         <Tab eventKey="askas" title="ASKAS">
                             <Askas/>
+                        </Tab>
+                        <Tab eventKey="anansesɛm" title="Anansesɛm">
+                            <Ananses3m />
                         </Tab>
                         <Tab eventKey="c9forlife" title="C9forlife">
                             <C9forlife />
