@@ -96,24 +96,24 @@ const Others = () => {
                     </p>
                     <TechnologiesWrapper>
                         <p>C#</p>
-                        <p>Linq</p>
+                        <p>Linq Queries</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
             </MainProjectWrapper>
 
-            <MainProjectWrapper>
+            {/* <MainProjectWrapper>
                 <IconWrapper>
                     <EachIcon>
                         <a href="https://github.com/brakwaku/Ananses3mFrontend" target="_blank" rel="noreferrer">
                             <img src={source} alt="Github Repo"/>
                         </a>
                     </EachIcon>
-                    <ProjTitle>Anansesɛm Store</ProjTitle>
+                    <ProjTitle>Anansesɛm Frontend</ProjTitle>
                 </IconWrapper>
                 <TextWrapper>
                     <p>
-                        An ecommerce web application that displays items sold by the company. The application
-                        has an admin page where administrators can add and remove items. Users can add and
+                        The front-end of an ecommerce web application that displays items sold by the company.
+                        The application has an admin page where administrators can add and remove items. Users can add and
                         remove items from their cart and place orders. The application uses technologies
                         such as Node / Express Js, JavaScript, Custom CSS, Bootstrap, Vue and
                         Database management.
@@ -126,7 +126,7 @@ const Others = () => {
                         <p>Bootstrap</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
-            </MainProjectWrapper>
+            </MainProjectWrapper> */}
 
             <MainProjectWrapper>
                 <IconWrapper>
