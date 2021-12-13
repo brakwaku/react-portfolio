@@ -151,7 +151,7 @@ const Volunteer = () => {
                 </IconWrapper>
                 <TextWrapper>
                     <ExperienceListWrapper>
-                        <ExperienceList>Collaborated with other developers to build a modern <a href="www.buildingfit.com">website</a> for the company.</ExperienceList>
+                        <ExperienceList>Collaborated with other developers to build a modern <a href="https://buildingfit.com" target='_blank' rel="noreferrer">website</a> for the company.</ExperienceList>
                         <ExperienceList>Leverage HTML, CSS, JS and WP to build a website consistent with UX design best practices.</ExperienceList>
                         <ExperienceList>Collaborated efforts through regular meetings and consultation in an agile development environment.</ExperienceList>
                     </ExperienceListWrapper>

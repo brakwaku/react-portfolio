@@ -69,6 +69,12 @@ const Footer = () => {
                     <a href="https://open.spotify.com/artist/6Bu0ogVJIM6VB20GXQkmh9" target="_blank" rel="noreferrer">
                         <i class="fa fa-spotify fa-inverse"></i>
                     </a>
+                    {/* <a href="https://codesandbox.io/dashboard/home?file=/index.js">
+                        <i class="fa fa-codesandbox fa-inverse"></i>
+                    </a> */}
+                    {/* <a href="https://codepen.io/your-work" target="_blank" rel="noreferrer">
+                        <i class="fa fa-codepen fa-inverse"></i>
+                    </a> */}
                 </FooterLinksWrapper>
                 <hr />
                 <p>© 2020 - Kwaku Appau-Nkansah</p>
