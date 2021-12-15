@@ -59,6 +59,7 @@ const TechnologiesWrapper = styled.div`
     flex-wrap: wrap;
     margin: 1rem 0 0 0;
     gap: 1rem;
+    font-style: oblique;
 `;
 
 const EachIcon = styled.div`

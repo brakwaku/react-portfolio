@@ -53,6 +53,7 @@ const TextWrapper = styled.div`
 const TechnologiesWrapper = styled.div`
     font-size: .8rem;
     display: flex;
+    font-style: oblique;
 
     > p {
         margin: 0 2rem 0 0;
@@ -85,7 +86,7 @@ const Others = () => {
                             <img src={source} alt="Github Repo"/>
                         </a>
                     </EachIcon>
-                    <ProjTitle>Sacrament Meeting Planner</ProjTitle>
+                    <ProjTitle>Meeting Planner</ProjTitle>
                 </IconWrapper>
                 <TextWrapper>
                     <p>
@@ -177,6 +178,29 @@ const Others = () => {
                         <p>Seaborn</p>
                         <p>Sklearn</p>
                         <p>Numpy</p>
+                    </TechnologiesWrapper>
+                </TextWrapper>
+            </MainProjectWrapper>
+
+            <MainProjectWrapper>
+                <IconWrapper>
+                    <EachIcon>
+                        <a href="https://github.com/brakwaku/Gradient-preview" target="_blank" rel="noreferrer">
+                            <img src={source} alt="Github Repo"/>
+                        </a>
+                    </EachIcon>
+                    <ProjTitle>Gradient Preview</ProjTitle>
+                </IconWrapper>
+                <TextWrapper>
+                    <p>
+                        A simple web page that helps designers have a quick preview of a two-color gradient.
+                        This serves as a tool to help designers get a visual representation of a gradient idea
+                        before actually applying it.
+                    </p>
+                    <TechnologiesWrapper>
+                        <p>JavaScript</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
                     </TechnologiesWrapper>
                 </TextWrapper>
             </MainProjectWrapper>

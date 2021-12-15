@@ -122,16 +122,16 @@ const About = () => {
                     <AboutContentWrapper>
                         <AboutTextWrapper>
                             <p>
-                                My name is Theophilus Appau-Nkansah ( Kwaku ).
-                                I am an innovative Software Engineer / Data Scientist of Brigham Young
-                                University - Idaho (BYUI). I was exposed to programming in 2019 when I 
+                                My name is Theophilus Appau-Nkansah ( Kwaku ). I am an innovative creator.
+                                I graduated from Brigham Young University - Idaho (BYUI) with a BS in Software Engineer
+                                and a certificate in Data Science. I was exposed to programming in 2019 when I 
                                 took a C++ class about procedural programming and I loved it. I care 
                                 about solving problems and making things as simple as they can be for people so 
                                 I loved the flexibility and creativity it allowed.
                             </p>
                             <p>
                                 My extensive knowledge and experience in Graphic designing
-                                combined with my knowledge in backend and front end development
+                                combined with my technical knowledge in backend and front end development
                                 makes me an exceptional Full-Stack Developer candidate. Growing up as a
                                 kid I loved sketching and drawing pictures of people which
                                 groomed me to pay good attention to details (especially when it comes to graphics).
@@ -142,7 +142,7 @@ const About = () => {
                                 <SkillsList>JavaScript</SkillsList>
                                 <SkillsList>Node Js / Express Js</SkillsList>
                                 <SkillsList>PHP</SkillsList>
-                                <SkillsList>React</SkillsList>
+                                <SkillsList>React & Angular</SkillsList>
                                 <SkillsList>jQuery</SkillsList>
                                 <SkillsList>MySQL</SkillsList>
                                 <SkillsList>Java</SkillsList>
@@ -154,7 +154,7 @@ const About = () => {
                             </SkillsListWrapper>
                         </AboutTextWrapper>
                         <AboutPicWrapper>
-                            <ImageWrapper src={profileImage} alt="Kwaku Picture" />
+                            <ImageWrapper src={profileImage} alt="Kwaku's Profile Picture" />
                         </AboutPicWrapper>
                     </AboutContentWrapper>
                 </Container>
