@@ -122,19 +122,18 @@ const About = () => {
                     <AboutContentWrapper>
                         <AboutTextWrapper>
                             <p>
-                                My name is Theophilus Appau-Nkansah ( Kwaku ). I am an innovative creator.
-                                I graduated from Brigham Young University - Idaho (BYUI) with a BS in Software Engineer
+                                My name is Theophilus (Kwaku) Appau-Nkansah. I am an innovative creator.
+                                I graduated from Brigham Young University - Idaho (BYUI) with a B.S. in Software Engineering
                                 and a certificate in Data Science. I was exposed to programming in 2019 when I 
-                                took a C++ class about procedural programming and I loved it. I care 
-                                about solving problems and making things as simple as they can be for people so 
-                                I loved the flexibility and creativity it allowed.
+                                took a C++ class about procedural programming and I loved it. I care about making complex things as
+                                simple as possible and solving problems for people so I loved the flexibility and creativity programing allowed.
                             </p>
                             <p>
                                 My extensive knowledge and experience in Graphic designing
                                 combined with my technical knowledge in backend and front end development
                                 makes me an exceptional Full-Stack Developer candidate. Growing up as a
                                 kid I loved sketching and drawing pictures of people which
-                                groomed me to pay good attention to details (especially when it comes to graphics).
+                                groomed me to pay good attention to detail (especially when it comes to graphics).
                             </p>
                             <p>Over the years, I have tackled a series of projects and have had the privilege of working with technologies such as:</p>
 
