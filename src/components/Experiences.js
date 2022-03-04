@@ -12,10 +12,6 @@ const ExperiencesMainWrapper = styled.div`
     padding-top: 7vw;
     padding-bottom: 5vw;
     box-shadow: 0px -4px 3px rgba(0, 0, 0, 0.123), 0 0 6px rgba(0, 0, 0, 0.151);
-
-    @media only screen and ${breakpoint.device.sm}{
-        // font-size: 3.5rem;
-    }
 `;
 
 const ExperiencesContentWrapper = styled.div`
@@ -39,7 +35,6 @@ const ExperiencesTitle = styled.h2`
 const Experiences = () => {
     return (
         <ExperiencesMainWrapper id="experiences">
-
             <ScrollAnimation animateIn='fadeInUp'>
                 <Container>
                     <ExperiencesTitle>Work Experience</ExperiencesTitle>
