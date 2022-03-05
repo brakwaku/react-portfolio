@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import breakpoint from '../../breakpoints';
+import media from '../../media';
 
 const BFMainWrapper = styled.div`
     background: #1d2f3f;
@@ -30,9 +30,9 @@ const ExperienceListWrapper = styled.ul`
     margin: 15px 0px 0px 0px;
     list-style: none;
 
-    @media only screen and ${breakpoint.device.sm}{
+    ${media.small`
         padding-left: 0;
-    }
+    `}
 `;
 
 const ExperienceList = styled.li`
