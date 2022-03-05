@@ -52,28 +52,28 @@ const Footer = () => {
                 <FooterTextWrapper>Feel free to connect with me via any of these and I will get right back to you</FooterTextWrapper>
                 <FooterLinksWrapper>
                     <a href="https://www.linkedin.com/in/theophilus-kwaku-appau-nkansah-b57393a2" target="_blank" rel="noreferrer">
-                        <i class="fa fa-linkedin fa-inverse"></i>
+                        <i className="fa fa-linkedin fa-inverse"></i>
                     </a>
                     <a href="https://github.com/brakwaku" target="_blank" rel="noreferrer">
-                        <i class="fa fa-github fa-inverse"></i>
+                        <i className="fa fa-github fa-inverse"></i>
                     </a>
                     <a href="https://www.facebook.com/brakwakumusic" target="_blank" rel="noreferrer">
-                        <i class="fa fa-facebook fa-inverse"></i>
+                        <i className="fa fa-facebook fa-inverse"></i>
                     </a>
                     <a href="https://www.facebook.com/brakwakumusic" target="_blank" rel="noreferrer">
-                        <i class="fa fa-instagram fa-inverse"></i>
+                        <i className="fa fa-instagram fa-inverse"></i>
                     </a>
                     <a href="mailto:brakwakujr@gmail.com">
-                        <i class="fa fa-paper-plane fa-inverse"></i>
+                        <i className="fa fa-paper-plane fa-inverse"></i>
                     </a>
                     <a href="https://open.spotify.com/artist/6Bu0ogVJIM6VB20GXQkmh9" target="_blank" rel="noreferrer">
-                        <i class="fa fa-spotify fa-inverse"></i>
+                        <i className="fa fa-spotify fa-inverse"></i>
                     </a>
                     {/* <a href="https://codesandbox.io/dashboard/home?file=/index.js">
-                        <i class="fa fa-codesandbox fa-inverse"></i>
+                        <i className="fa fa-codesandbox fa-inverse"></i>
                     </a> */}
                     {/* <a href="https://codepen.io/your-work" target="_blank" rel="noreferrer">
-                        <i class="fa fa-codepen fa-inverse"></i>
+                        <i className="fa fa-codepen fa-inverse"></i>
                     </a> */}
                 </FooterLinksWrapper>
                 <hr />
