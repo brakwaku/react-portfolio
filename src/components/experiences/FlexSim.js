@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import breakpoint from '../../breakpoints';
+import media from '../../media';
 
 const ExpMainWrapper = styled.div`
     background: #1d2f3f;
@@ -30,9 +30,9 @@ const ExperienceListWrapper = styled.ul`
     margin: 15px 0px 0px 0px;
     list-style: none;
 
-    @media only screen and ${breakpoint.device.sm}{
+    ${media.small`
         padding-left: 0;
-    }
+    `}
 `;
 
 const ExperienceList = styled.li`
@@ -58,7 +58,7 @@ const FlexSim = () => {
     return (
         <ExpMainWrapper>
             <ExpTitle>Software Developer | <h6>FlexSim Software Products, Inc.</h6></ExpTitle>
-            <TimeFrame>April 2021 - Present</TimeFrame>
+            <TimeFrame>April 2021 - Dec. 2021</TimeFrame>
             <ExperienceListWrapper>
                 <ExperienceList>Partnered in developing web applications and components utilizing PHP, Laravel / Livewire, Tailwind and Alpine Js</ExperienceList>
                 <ExperienceList>Utilizing Eloquent models for easier and faster interaction with database.</ExperienceList>
