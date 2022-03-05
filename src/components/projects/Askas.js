@@ -3,7 +3,7 @@ import live from '../../assets/live.png';
 import source from '../../assets/source.png';
 import React from 'react';
 import styled from "styled-components";
-import breakpoint from '../../breakpoints';
+import media from '../../media';
 
 const MainContentWrapper = styled.div`
     display: grid;
@@ -12,10 +12,10 @@ const MainContentWrapper = styled.div`
     row-gap: 3rem;
     column-gap: 3rem;
 
-    @media only screen and ${breakpoint.device.sm}{
+    ${media.small`
         display: flex;
         flex-direction: column-reverse;
-    }
+    `}
 `;
 
 const DescriptionWrapper = styled.div`
@@ -60,10 +60,10 @@ const PImageWrapper = styled.img`
         transition: 0.5s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.5s box-shadow, 0.5s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
     }
 
-    @media only screen and ${breakpoint.device.sm}{
+    ${media.small`
         filter: none;
         width: 100%;
-    }
+    `}
 `;
 
 const Askas = () => {
