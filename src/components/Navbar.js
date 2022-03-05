@@ -14,7 +14,7 @@ const NavbarWrapper = styled(Container)`
 const NavBar = () => {
     const text = "Ananse Ntontan (a-NAN-Se N-ton-TAN) literally means Spider's Web. It is a symbol of wisdom, creativity, and the complexities of life. Wisdom relates to experience, knowledge, and good judgment in decision-making and taking action.";
     return (
-        <Animated animationIn="fadeIn" animationInDuration="5000" isVisible={true}>
+        <Animated animationIn="fadeIn" animationInDuration={5000} isVisible={true}>
             <NavbarWrapper>
                 <Navbar bg="" variant={"dark"} expand="md">
                     <Navbar.Brand href="#home">
