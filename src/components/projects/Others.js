@@ -1,7 +1,7 @@
 import React from 'react';
 import source from '../../assets/source.png';
 import styled from "styled-components";
-import breakpoint from '../../breakpoints';
+import media from '../../media';
 
 
 const OutterWrapper = styled.div`
@@ -12,10 +12,10 @@ const OutterWrapper = styled.div`
     column-gap: 1.5rem;
     padding-top: 1.2rem;
 
-    @media only screen and ${breakpoint.device.sm}{
+    ${media.small`
         display: flex;
         flex-direction: column;
-    }
+    `}
 `;
 
 const MainProjectWrapper = styled.div`
