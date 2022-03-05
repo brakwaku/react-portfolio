@@ -1,6 +1,5 @@
-import React from 'react';
 import styled from "styled-components";
-import breakpoint from '../../breakpoints';
+import media from '../../media';
 
 const ExpMainWrapper = styled.div`
     background: #1d2f3f;
@@ -30,9 +29,9 @@ const ExperienceListWrapper = styled.ul`
     margin: 15px 0px 0px 0px;
     list-style: none;
 
-    @media only screen and ${breakpoint.device.sm}{
+    ${media.small`
         padding-left: 0;
-    }
+    `}
 `;
 
 const ExperienceList = styled.li`
@@ -58,7 +57,7 @@ const BYUIAudio = () => {
     return (
         <ExpMainWrapper>
             <ExpTitle>Administrative Assistant | <h6>BYU-Idaho Av Production</h6></ExpTitle>
-            <TimeFrame>July 2019 - Present</TimeFrame>
+            <TimeFrame>July 2019 - Dec. 2021</TimeFrame>
             <ExperienceListWrapper>
                 <ExperienceList>Devised a NodeJS web application to track work hours and tasks assigned to employees. <a href="https://github.com/brakwaku/byuibroadcastaudio" target='_blank' rel="noreferrer"> Source Code</a></ExperienceList>
                 <ExperienceList>Boosted workflow and efficiency with monthly inventory sheets employing Microsoft office tools.</ExperienceList>
