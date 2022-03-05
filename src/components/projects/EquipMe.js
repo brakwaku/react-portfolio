@@ -2,7 +2,7 @@ import equipMeImage from '../../assets/equipme.jpg';
 import source from '../../assets/source.png';
 import React from 'react';
 import styled from "styled-components";
-import breakpoint from '../../breakpoints';
+import media from '../../media';
 
 const MainContentWrapper = styled.div`
     display: grid;
@@ -11,10 +11,10 @@ const MainContentWrapper = styled.div`
     row-gap: 3rem;
     column-gap: 3rem;
 
-    @media only screen and ${breakpoint.device.sm}{
+    ${media.small`
         display: flex;
         flex-direction: column-reverse;
-    }
+    `}
 `;
 
 const DescriptionWrapper = styled.div`
@@ -58,10 +58,10 @@ const PImageWrapper = styled.img`
         filter: none;
     }
 
-    @media only screen and ${breakpoint.device.sm}{
+    ${media.small`
         filter: none;
         width: 100%;
-    }
+    `}
 `;
 
 
