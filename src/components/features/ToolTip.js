@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../../App.css';
 import { Animated } from "react-animated-css";
 import styled from "styled-components";
-import breakpoint from '../../breakpoints';
+import media from '../../media';
 
 
 const ToolTipContainer = styled.div`
@@ -12,9 +12,9 @@ const ToolTipContainer = styled.div`
 const ToolTipBox = styled.div`
     display: none;
 
-    @media only screen and ${breakpoint.device.sm}{
-        width: 300px;
-    }
+    ${media.small`
+        width: 300px
+    `}
 `;
 
 const ToolTipText = styled.div`
@@ -54,7 +54,7 @@ const MyTooltip = ({ children, text, ...rest }) => {
     return (
         <ToolTipContainer>
             <ToolTipBox className={show ? 'tooltip-box visible' : 'tooltip-box'}>
-                <Animated animationIn="fadeIn" animationInDuration="5000" isVisible={true}>
+                <Animated animationIn="fadeIn" animationInDuration={5000} isVisible={true}>
                     {/* <ToolTipArrow className="tooltip-arrow" /> */}
                     <ToolTipText className="tooltext">{text}</ToolTipText>
                 </Animated>
