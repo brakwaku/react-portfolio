@@ -3,28 +3,32 @@ import '../../App.css';
 import styled from "styled-components";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import BuildingFit from '../experiences/BuildingFit';
+import IBM from '../experiences/IBM';
 import FlexSim from '../experiences/FlexSim';
 import LDSChurch from '../experiences/LDSChurch';
 import BYUIAudio from '../experiences/BYUIAudio';
 import ExcessEra from '../experiences/ExcessEra';
 import Rogmoth from '../experiences/Rogmoth';
 import Volunteer from '../experiences/Volunteer';
-import breakpoint from '../../breakpoints';
+import media from '../../media';
 
 const PanelContent = styled.div`
     // text-align: center;
 `;
 
 const TabContent = styled.p`
-    @media only screen and ${breakpoint.device.xs}{
+    ${media.small`
         font-size: .9rem;
-    }
+    `}
 `;
 
 const LineMenu = () => {
     return (
         <Tabs>
             <TabList>
+                <Tab>
+                    <TabContent>IBM</TabContent>
+                </Tab>
                 <Tab>
                     <TabContent>FlexSim</TabContent>
                 </Tab>
@@ -48,6 +52,11 @@ const LineMenu = () => {
                 </Tab>
             </TabList>
 
+            <TabPanel>
+                <PanelContent>
+                    <IBM />
+                </PanelContent>
+            </TabPanel>
             <TabPanel>
                 <PanelContent>
                     <FlexSim />
