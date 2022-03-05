@@ -8,7 +8,6 @@ import Ananses3m from './projects/Ananses3m';
 import EquipMe from './projects/EquipMe';
 import Others from './projects/Others';
 import ScrollAnimation from 'react-animate-on-scroll';
-import breakpoint from '../breakpoints';
 
 const ProjectsMainWrapper = styled.div`
     // background: #2C4458;
@@ -16,10 +15,6 @@ const ProjectsMainWrapper = styled.div`
     color: #8892B0;
     padding-top: 7vw;
     padding-bottom: 5vw;
-
-    @media only screen and ${breakpoint.device.sm}{
-        // font-size: 3.5rem;
-    }
 `;
 const ProjectsContentWrapper = styled.div`
     // border: 2px solid;
