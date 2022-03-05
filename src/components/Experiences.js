@@ -4,6 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import styled from "styled-components";
 import breakpoint from '../breakpoints';
 import LineMenu from './features/LineMenu';
+import media from '../media';
 
 const ExperiencesMainWrapper = styled.div`
     background: #1d2f3f;
@@ -25,10 +26,15 @@ const ExperiencesTitle = styled.h2`
     font-family: 'Poppins', sans-serif;
     // font-family: 'Righteous', cursive;
 
-    @media only screen and ${breakpoint.device.sm}{
+    /* @media only screen and ${breakpoint.device.sm}{
         text-align: center;
         margin-bottom: 2rem;
-    }
+    } */
+
+    ${media.small`
+        text-align: center;
+        margin-bottom: 2rem;
+    `}
 `;
 
 
