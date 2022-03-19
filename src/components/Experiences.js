@@ -8,7 +8,6 @@ import media from '../media';
 
 const ExperiencesMainWrapper = styled.div`
     background: #1d2f3f;
-    // background: #1d2f3f;
     color: #8892B0;
     padding-top: 7vw;
     padding-bottom: 5vw;
