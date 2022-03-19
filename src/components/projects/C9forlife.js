@@ -83,7 +83,7 @@ const C9forlife = () => {
                 </p>
                 <IconsWrapper>
                     <EachIcon><a href="https://c9forlife.herokuapp.com" target="_blank" rel="noreferrer"><img src={live} alt="C9ForLife"/></a></EachIcon>
-                    <EachIcon><a href="https://github.com/brakwaku/C9forlife-app" target="_blank" rel="noreferrer"><img src={source} alt="C9ForLife Github"/></a></EachIcon>
+                    <EachIcon><a href="https://github.com/brakwaku/c9forlife-react" target="_blank" rel="noreferrer"><img src={source} alt="C9ForLife Github"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
