@@ -1,4 +1,5 @@
 import heroimage from '../assets/background.jpg';
+import heroimageSmall from '../assets/backgroundSmall.jpg';
 import myResume from '../assets/resume.pdf';
 import React from 'react';
 import NavBar from './Navbar';
@@ -40,6 +41,12 @@ const HeroWrapper = styled.div`
 
   ${media.small`
     padding: .5rem;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.73),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(${heroimageSmall}) center no-repeat;
     `}
 `;
 
