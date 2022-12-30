@@ -3,7 +3,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import styled from 'styled-components';
 import ScrollAnimation from 'react-animate-on-scroll';
-import media from '../media';
+import media from '../../media';
 
 const AboutMainWrapper = styled.div`
   // background: linear-gradient(135deg, #44627D, #2C4458);

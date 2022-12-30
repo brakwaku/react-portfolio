@@ -1,6 +1,5 @@
-import React from 'react';
 import styled from "styled-components";
-import media from '../../media';
+import media from '../../../media';
 
 const ExpMainWrapper = styled.div`
     background: #1d2f3f;
@@ -54,20 +53,19 @@ const ExperienceList = styled.li`
 `;
 
 
-const Rogmoth = () => {
+const BYUIAudio = () => {
     return (
         <ExpMainWrapper>
-            <ExpTitle>Assistant Director | <h6>Rogmoth Ventures Ltd</h6></ExpTitle>
-            <TimeFrame>March 2012 - July 2016</TimeFrame>
+            <ExpTitle>Administrative Assistant | <h6>BYU-Idaho Av Production</h6></ExpTitle>
+            <TimeFrame>July 2019 - Dec. 2021</TimeFrame>
             <ExperienceListWrapper>
-                <ExperienceList>Conducted and presided over meetings of about 20 people to enhance customer trust and satisfaction</ExperienceList>
-                <ExperienceList>Facilitated one-on-one training in team work and communication skills to raise output by about 12%.</ExperienceList>
-                <ExperienceList>Trained 12 staff members on teamwork to enhance work efficiency.</ExperienceList>
-                <ExperienceList>Increased office efficiency by 15% through weekly feedback reports of all employees.</ExperienceList>
-                <ExperienceList>Saved company GHC53,450 ($10,000) through detailed analysis of contracts to improve problem solving skills.</ExperienceList>
+                <ExperienceList>Devised a NodeJS web application to track work hours and tasks assigned to employees. <a href="https://github.com/brakwaku/byuibroadcastaudio" target='_blank' rel="noreferrer"> Source Code</a></ExperienceList>
+                <ExperienceList>Boosted workflow and efficiency with monthly inventory sheets employing Microsoft office tools.</ExperienceList>
+                <ExperienceList>Process audio files with Avid Pro Tools to enhance consumer satisfaction and engagement by 99%.</ExperienceList>
+                <ExperienceList>Created monthly inventory sheets with Microsoft Excel to keep track of gear and for training purposes.</ExperienceList>
             </ExperienceListWrapper>
         </ExpMainWrapper>
     )
 }
 
-export default Rogmoth;
+export default BYUIAudio;

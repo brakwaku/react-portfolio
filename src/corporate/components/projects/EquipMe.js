@@ -2,7 +2,7 @@ import equipMeImage from '../../assets/equipme.jpg';
 import source from '../../assets/source.png';
 import React from 'react';
 import styled from "styled-components";
-import media from '../../media';
+import media from '../../../media';
 
 const MainContentWrapper = styled.div`
     display: grid;

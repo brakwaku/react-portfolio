@@ -1,9 +1,9 @@
-import c9forlifeImage from '../../assets/c9forlife.jpg';
+import askasImage from '../../assets/askas.jpg';
 import live from '../../assets/live.png';
 import source from '../../assets/source.png';
 import React from 'react';
 import styled from "styled-components";
-import media from '../../media';
+import media from '../../../media';
 
 const MainContentWrapper = styled.div`
     display: grid;
@@ -66,33 +66,31 @@ const PImageWrapper = styled.img`
     `}
 `;
 
-
-const C9forlife = () => {
+const Askas = () => {
     return (
         <MainContentWrapper>
             <DescriptionWrapper>
                 <p>
-                    A web application that serves as an environment for people who
-                    have any form of depression, PTSD, victims of abuse or trauma
-                    to interact with an administrator who cordinates activities. Users
-                    of the app are able to take and complete tasks as they get rewarded.
-                    They can also suggest activities that can be added by the administrator
-                    so that others can perform it too. The application uses technologies
+                    A web application used by a supervisor and his subordinates to
+                    keep track of the hours worked and the tasks they worked on. This
+                    application was developed because the supervisor had to create an excel
+                    document every week and provide a link for the subordinates to enter their
+                    hours worked and what they worked on. The application uses technologies
                     such as Node / Express Js, JavaScript, Custom CSS, Bootstrap, EJS and
                     Database (MongoDB).
                 </p>
                 <IconsWrapper>
-                    <EachIcon><a href="https://c9forlife.herokuapp.com" target="_blank" rel="noreferrer"><img src={live} alt="C9ForLife"/></a></EachIcon>
-                    <EachIcon><a href="https://github.com/brakwaku/c9forlife-react" target="_blank" rel="noreferrer"><img src={source} alt="C9ForLife Github"/></a></EachIcon>
+                    <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank" rel="noreferrer"><img src={live} alt="byuibroadcastaudio"/></a></EachIcon>
+                    <EachIcon><a href="https://github.com/brakwaku/byuibroadcastaudio" target="_blank" rel="noreferrer"><img src={source} alt="byuibroadcastaudio Github"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <a href="https://c9forlife.herokuapp.com" target="_blank" rel="noreferrer">
-                    <PImageWrapper src={c9forlifeImage} alt="Cloud 9 for life Project" />
+                <a href="https://byuibroadcastaudio.herokuapp.com" target="_blank" rel="noreferrer">
+                    <PImageWrapper src={askasImage} alt="ASKAS Project" />
                 </a>
             </ProjectImageWrapper>
         </MainContentWrapper>
     )
 }
 
-export default C9forlife;
+export default Askas;

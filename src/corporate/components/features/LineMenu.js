@@ -10,7 +10,7 @@ import BYUIAudio from '../experiences/BYUIAudio';
 import ExcessEra from '../experiences/ExcessEra';
 import Rogmoth from '../experiences/Rogmoth';
 import Volunteer from '../experiences/Volunteer';
-import media from '../../media';
+import media from '../../../media';
 
 const PanelContent = styled.div`
     // text-align: center;

@@ -2,9 +2,9 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 import styled from "styled-components";
-import breakpoint from '../breakpoints';
+import breakpoint from '../../breakpoints';
 import LineMenu from './features/LineMenu';
-import media from '../media';
+import media from '../../media';
 
 const ExperiencesMainWrapper = styled.div`
     background: #1d2f3f;

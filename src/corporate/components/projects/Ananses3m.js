@@ -3,7 +3,7 @@ import ananses3mImage from '../../assets/ananses3m.jpg';
 import live from '../../assets/live.png';
 import source from '../../assets/source.png';
 import styled from "styled-components";
-import media from '../../media';
+import media from '../../../media';
 
 const MainContentWrapper = styled.div`
     display: grid;

@@ -1,7 +1,7 @@
 import React from 'react';
 import source from '../../assets/source.png';
 import styled from "styled-components";
-import media from '../../media';
+import media from '../../../media';
 
 
 const OutterWrapper = styled.div`

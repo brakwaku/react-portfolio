@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../../App.css';
 import { Animated } from "react-animated-css";
 import styled from "styled-components";
-import media from '../../media';
+import media from '../../../media';
 
 
 const ToolTipContainer = styled.div`

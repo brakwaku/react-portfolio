@@ -1,13 +1,13 @@
 import React from 'react';
 import styled from "styled-components";
-import media from '../../media';
+import media from '../../../media';
 
-const BFMainWrapper = styled.div`
+const ExpMainWrapper = styled.div`
     background: #1d2f3f;
     color: #8892B0;
 `;
 
-const BFTitle = styled.h5`
+const ExpTitle = styled.h5`
     color: #95a1c5;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
@@ -54,18 +54,18 @@ const ExperienceList = styled.li`
 `;
 
 
-const LDSChurch = () => {
+const ExcessEra = () => {
     return (
-        <BFMainWrapper>
-            <BFTitle>Software Engineer | <h6>The Church of Jesus Christ of Latter-Day Saints</h6></BFTitle>
-            <TimeFrame>Jan. 2021 - April 2021</TimeFrame>
+        <ExpMainWrapper>
+            <ExpTitle>Managing Director & Graphic Designer | <h6>Excess Era</h6></ExpTitle>
+            <TimeFrame>Jan. 2011 – Sept. 2018</TimeFrame>
             <ExperienceListWrapper>
-                <ExperienceList>Partnered in developing of a web application and components utilizing React JS and Java</ExperienceList>
-                <ExperienceList>Partnered with teammates utilizing GIT version control</ExperienceList>
-                <ExperienceList>Wrote unit tests using jest and enzyme to ensure quality products.</ExperienceList>
+                <ExperienceList>Negotiated constructively with clients to boost patronage by 5% over 4 months</ExperienceList>
+                <ExperienceList>Created new designs through creative thinking to retain 80% of new customers and consumers.</ExperienceList>
+                <ExperienceList>Increased customer satisfaction through creative use of Adobe Photoshop, Adobe Illustrator and Blender 3D.</ExperienceList>
             </ExperienceListWrapper>
-        </BFMainWrapper>
+        </ExpMainWrapper>
     )
 }
 
-export default LDSChurch;
+export default ExcessEra;

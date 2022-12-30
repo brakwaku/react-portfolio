@@ -1,6 +1,6 @@
+import React from 'react';
 import styled from "styled-components";
-import breakpoint from '../../breakpoints';
-import media from '../../media';
+import media from '../../../media';
 
 const ExpMainWrapper = styled.div`
     background: #1d2f3f;
@@ -30,9 +30,6 @@ const ExperienceListWrapper = styled.ul`
     margin: 15px 0px 0px 0px;
     list-style: none;
 
-    /* @media only screen and ${breakpoint.device.sm}{
-        padding-left: 0;
-    } */
     ${media.small`
         padding-left: 0;
     `}
@@ -56,20 +53,21 @@ const ExperienceList = styled.li`
     }
 `;
 
-const IBM = () => {
+
+const Rogmoth = () => {
     return (
         <ExpMainWrapper>
-            <ExpTitle>Software Developer | <h6>International Business Machines (IBM) Corp.</h6></ExpTitle>
-            <TimeFrame>Feb. 2022 - Present</TimeFrame>
+            <ExpTitle>Assistant Director | <h6>Rogmoth Ventures Ltd</h6></ExpTitle>
+            <TimeFrame>March 2012 - July 2016</TimeFrame>
             <ExperienceListWrapper>
-                <ExperienceList>Design, develop, test and deliver offerings using leading edge and proven technologies.</ExperienceList>
-                <ExperienceList>Work in an Agile, collaborative environment to understand stakeholder requirements.</ExperienceList>
-                <ExperienceList>Design, code and test innovative component-level software solutions.</ExperienceList>
-                <ExperienceList>Ensure that implemented solutions are unit tested and ready to be integrated into their product.</ExperienceList>
-                <ExperienceList>Debug customer-reported problems: design, develop and unit test code fixes.</ExperienceList>
+                <ExperienceList>Conducted and presided over meetings of about 20 people to enhance customer trust and satisfaction</ExperienceList>
+                <ExperienceList>Facilitated one-on-one training in team work and communication skills to raise output by about 12%.</ExperienceList>
+                <ExperienceList>Trained 12 staff members on teamwork to enhance work efficiency.</ExperienceList>
+                <ExperienceList>Increased office efficiency by 15% through weekly feedback reports of all employees.</ExperienceList>
+                <ExperienceList>Saved company GHC53,450 ($10,000) through detailed analysis of contracts to improve problem solving skills.</ExperienceList>
             </ExperienceListWrapper>
         </ExpMainWrapper>
     )
 }
 
-export default IBM
+export default Rogmoth;

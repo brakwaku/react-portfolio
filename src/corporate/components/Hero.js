@@ -6,7 +6,7 @@ import NavBar from './Navbar';
 import styled from 'styled-components';
 import { Container } from 'react-bootstrap';
 import { Animated } from 'react-animated-css';
-import media from '../media';
+import media from '../../media';
 
 // Styled components
 const HeroWrapper = styled.div`

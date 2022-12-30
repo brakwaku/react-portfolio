@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import media from '../../media';
+import media from '../../../media';
 
 const ExpMainWrapper = styled.div`
     background: #1d2f3f;
@@ -54,18 +54,19 @@ const ExperienceList = styled.li`
 `;
 
 
-const ExcessEra = () => {
+const FlexSim = () => {
     return (
         <ExpMainWrapper>
-            <ExpTitle>Managing Director & Graphic Designer | <h6>Excess Era</h6></ExpTitle>
-            <TimeFrame>Jan. 2011 – Sept. 2018</TimeFrame>
+            <ExpTitle>Software Developer | <h6>FlexSim Software Products, Inc.</h6></ExpTitle>
+            <TimeFrame>April 2021 - Dec. 2021</TimeFrame>
             <ExperienceListWrapper>
-                <ExperienceList>Negotiated constructively with clients to boost patronage by 5% over 4 months</ExperienceList>
-                <ExperienceList>Created new designs through creative thinking to retain 80% of new customers and consumers.</ExperienceList>
-                <ExperienceList>Increased customer satisfaction through creative use of Adobe Photoshop, Adobe Illustrator and Blender 3D.</ExperienceList>
+                <ExperienceList>Partnered in developing web applications and components utilizing PHP, Laravel / Livewire, Tailwind and Alpine Js</ExperienceList>
+                <ExperienceList>Utilizing Eloquent models for easier and faster interaction with database.</ExperienceList>
+                <ExperienceList>Partnered with teammates utilizing GIT version control.</ExperienceList>
+                <ExperienceList>Wrote unit tests using PHPUnit to ensure quality components and products.</ExperienceList>
             </ExperienceListWrapper>
         </ExpMainWrapper>
     )
 }
 
-export default ExcessEra;
+export default FlexSim;

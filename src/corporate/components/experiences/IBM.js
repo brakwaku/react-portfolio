@@ -1,6 +1,6 @@
-import React from 'react';
 import styled from "styled-components";
-import media from '../../media';
+import breakpoint from '../../../breakpoints';
+import media from '../../../media';
 
 const ExpMainWrapper = styled.div`
     background: #1d2f3f;
@@ -30,6 +30,9 @@ const ExperienceListWrapper = styled.ul`
     margin: 15px 0px 0px 0px;
     list-style: none;
 
+    /* @media only screen and ${breakpoint.device.sm}{
+        padding-left: 0;
+    } */
     ${media.small`
         padding-left: 0;
     `}
@@ -53,20 +56,20 @@ const ExperienceList = styled.li`
     }
 `;
 
-
-const FlexSim = () => {
+const IBM = () => {
     return (
         <ExpMainWrapper>
-            <ExpTitle>Software Developer | <h6>FlexSim Software Products, Inc.</h6></ExpTitle>
-            <TimeFrame>April 2021 - Dec. 2021</TimeFrame>
+            <ExpTitle>Software Developer | <h6>International Business Machines (IBM) Corp.</h6></ExpTitle>
+            <TimeFrame>Feb. 2022 - Present</TimeFrame>
             <ExperienceListWrapper>
-                <ExperienceList>Partnered in developing web applications and components utilizing PHP, Laravel / Livewire, Tailwind and Alpine Js</ExperienceList>
-                <ExperienceList>Utilizing Eloquent models for easier and faster interaction with database.</ExperienceList>
-                <ExperienceList>Partnered with teammates utilizing GIT version control.</ExperienceList>
-                <ExperienceList>Wrote unit tests using PHPUnit to ensure quality components and products.</ExperienceList>
+                <ExperienceList>Design, develop, test and deliver offerings using leading edge and proven technologies.</ExperienceList>
+                <ExperienceList>Work in an Agile, collaborative environment to understand stakeholder requirements.</ExperienceList>
+                <ExperienceList>Design, code and test innovative component-level software solutions.</ExperienceList>
+                <ExperienceList>Ensure that implemented solutions are unit tested and ready to be integrated into their product.</ExperienceList>
+                <ExperienceList>Debug customer-reported problems: design, develop and unit test code fixes.</ExperienceList>
             </ExperienceListWrapper>
         </ExpMainWrapper>
     )
 }
 
-export default FlexSim;
+export default IBM
