@@ -1,5 +1,6 @@
 import logo from '../assets/logoO.png';
 import React from 'react';
+import { NavLink } from "react-router-dom";
 import '../corporate.css';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import styled from "styled-components";
@@ -17,13 +18,13 @@ const NavBar = () => {
         <Animated animationIn="fadeIn" animationInDuration={5000} isVisible={true}>
             <NavbarWrapper>
                 <Navbar bg="" variant={"dark"} expand="md">
-                    <Navbar.Brand href="#home">
+                    <NavLink className="navbar-brand" to="/">
                         <MyTooltip text={text}>
                             <img src={logo} width="40" height="40"
                                 className="d-inline-block align-top App-logo"
                                 alt="Kwaku logo" />
                         </MyTooltip>
-                    </Navbar.Brand>
+                    </NavLink>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">

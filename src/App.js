@@ -1,19 +1,21 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Hero from './corporate/components/Hero';
-import About from './corporate/components/About';
-import Projects from './corporate/components/Projects';
-import Experiences from './corporate/components/Experiences';
-import Footer from './corporate/components/Footer';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import WelcomeScreen from './WelcomeScreen';
+import Corporate from './corporate';
+import Music from './music';
+import NotFoundScreen from './NotFoundScreen';
+import InternalErrorScreen from './InternalErrorScreen';
 
 function App() {
   return (
-    <>
-      <Hero />
-      <About />
-      <Projects />
-      <Experiences />
-      <Footer />
-    </>
+    <Router>
+        <Routes>
+          <Route path="/" element={<WelcomeScreen />} exact />
+          <Route path="/corporate" element={<Corporate />} />
+          <Route path="/music" element={<Music />} />
+          <Route path="/internal-error" element={<InternalErrorScreen />} />
+          <Route path="*" element={<NotFoundScreen />} />
+        </Routes>
+    </Router>
   );
 }
 
