@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../App.css';
+import '../../corporate.css';
 import { Animated } from "react-animated-css";
 import styled from "styled-components";
 import media from '../../../media';

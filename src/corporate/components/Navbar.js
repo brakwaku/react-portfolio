@@ -1,6 +1,6 @@
 import logo from '../assets/logoO.png';
 import React from 'react';
-import '../App.css';
+import '../corporate.css';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import styled from "styled-components";
 import { Animated } from "react-animated-css";

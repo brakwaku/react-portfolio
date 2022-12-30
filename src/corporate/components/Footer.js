@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../corporate.css';
 import { Container } from 'react-bootstrap';
 import styled from "styled-components";
 

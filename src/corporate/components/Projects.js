@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Tab, Tabs } from 'react-bootstrap';
-import '../App.css';
+import '../corporate.css';
 import styled from "styled-components";
 import Askas from './projects/Askas';
 import C9forlife from './projects/C9forlife';

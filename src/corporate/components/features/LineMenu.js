@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css';
+import '../../corporate.css';
 import styled from "styled-components";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import BuildingFit from '../experiences/BuildingFit';
