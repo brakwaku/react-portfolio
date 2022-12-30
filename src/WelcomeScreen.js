@@ -10,10 +10,12 @@ const WelcomeScreen = () => {
       <NavLink to="/corporate">
         <CorporateWrapper>
           <h1>Corporate</h1>
+          <h6>Kwaku Appau-Nkansah</h6>
         </CorporateWrapper>
       </NavLink>
       <NavLink to="/music">
         <MusicWrapper>
+          <h6>BraKwaku Jr</h6>
           <h1>Music</h1>
         </MusicWrapper>
       </NavLink>
@@ -57,6 +59,10 @@ const CorporateWrapper = styled.div`
     color: whitesmoke;
   }
 
+  >h6 {
+    color: whitesmoke;
+  }
+
   &:hover {
     cursor: pointer;
   }
@@ -85,6 +91,11 @@ const MusicWrapper = styled.div`
 
   > h1 {
     font-size: 5rem;
+    font-weight: lighter;
+    color: whitesmoke;
+  }
+
+  >h6 {
     font-weight: lighter;
     color: whitesmoke;
   }
