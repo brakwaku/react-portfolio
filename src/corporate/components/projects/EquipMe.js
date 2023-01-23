@@ -77,7 +77,7 @@ const EquipMe = () => {
                 </p>
                 <IconsWrapper>
                     {/* <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank"><img src={live}/></a></EachIcon> */}
-                    <EachIcon><a href="https://github.com/brakwaku/C9forlife-app" target="_blank" rel="noreferrer"><img src={source} alt="Equip Me"/></a></EachIcon>
+                    <EachIcon><a href="https://github.com/brakwaku/equip-me" target="_blank" rel="noreferrer"><img src={source} alt="Equip Me"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>

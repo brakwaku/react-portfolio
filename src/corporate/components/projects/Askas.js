@@ -80,12 +80,12 @@ const Askas = () => {
                     Database (MongoDB).
                 </p>
                 <IconsWrapper>
-                    <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank" rel="noreferrer"><img src={live} alt="byuibroadcastaudio"/></a></EachIcon>
+                    <EachIcon><a href="https://byuibroadcastaudio.cyclic.app" target="_blank" rel="noreferrer"><img src={live} alt="byuibroadcastaudio"/></a></EachIcon>
                     <EachIcon><a href="https://github.com/brakwaku/byuibroadcastaudio" target="_blank" rel="noreferrer"><img src={source} alt="byuibroadcastaudio Github"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <a href="https://byuibroadcastaudio.herokuapp.com" target="_blank" rel="noreferrer">
+                <a href="https://byuibroadcastaudio.cyclic.app" target="_blank" rel="noreferrer">
                     <PImageWrapper src={askasImage} alt="ASKAS Project" />
                 </a>
             </ProjectImageWrapper>
