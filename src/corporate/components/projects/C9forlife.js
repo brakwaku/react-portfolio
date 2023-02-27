@@ -82,12 +82,12 @@ const C9forlife = () => {
                     Database (MongoDB).
                 </p>
                 <IconsWrapper>
-                    <EachIcon><a href="https://c9forlife.herokuapp.com" target="_blank" rel="noreferrer"><img src={live} alt="C9ForLife"/></a></EachIcon>
+                    <EachIcon><a href="https://c9forlife.cyclic.app" target="_blank" rel="noreferrer"><img src={live} alt="C9ForLife"/></a></EachIcon>
                     <EachIcon><a href="https://github.com/brakwaku/c9forlife-react" target="_blank" rel="noreferrer"><img src={source} alt="C9ForLife Github"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <a href="https://c9forlife.herokuapp.com" target="_blank" rel="noreferrer">
+                <a href="https://c9forlife.cyclic.app" target="_blank" rel="noreferrer">
                     <PImageWrapper src={c9forlifeImage} alt="Cloud 9 for life Project" />
                 </a>
             </ProjectImageWrapper>
