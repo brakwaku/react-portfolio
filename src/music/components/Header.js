@@ -1,45 +1,81 @@
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/logo.svg';
+import styled, { keyframes } from 'styled-components';
 
 const Header = () => {
   return (
-    // <nav class='navbar navbar-light bg-light container'>
-    //   <NavLink class='navbar-brand' to='/music'>
-    //     <img
-    //       src={logo}
-    //       width='30'
-    //       height='30'
-    //       class='d-inline-block align-top'
-    //       alt=''
-    //     />{' '}
-    //     <strong>BraKwaku Jr</strong>
-    //   </NavLink>
-    // </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" />
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+    <nav class='navbar navbar-expand-lg bg-light'>
+      <div class='container-fluid'>
+        <div className='d-flex'>
+          <NavLink class='navbar-brand' to='/music'>
+            <LogoImageWrapper
+              className='d-inline-block align-top'
+              src={logo}
+              alt='BraKwaku Jr Logo'
+            />
+          </NavLink>
+          <Link class='nav-item nav-link' to='/'>
+            <h4>BraKwaku Jr</h4>
+          </Link>
+        </div>
+        <button
+          class='navbar-toggler'
+          type='button'
+          data-bs-toggle='collapse'
+          data-bs-target='#navbarSupportedContent'
+          aria-controls='navbarSupportedContent'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+        >
+          <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+          <div class='navbar-nav ms-auto'>
+            <Link
+              class='nav-item nav-link'
+              aria-current='page'
+              to='/music/songs'
+            >
+              Songs
+            </Link>
+            <Link
+              class='nav-item nav-link'
+              aria-current='page'
+              to='/music/videos'
+            >
+              Videos
+            </Link>
+            <Link
+              class='nav-item nav-link'
+              aria-current='page'
+              to='/music/feat-artists'
+            >
+              Featured Artists
+            </Link>
+            <Link
+              class='nav-item nav-link'
+              aria-current='page'
+              to='/music/merch'
+            >
+              Merch
+            </Link>
+            <Link
+              class='nav-item nav-link'
+              aria-current='page'
+              to='/music/concerts'
+            >
+              Concerts
+            </Link>
+          </div>
+        </div>
+      </div>
+    </nav>
   );
 };
 
 export default Header;
+
+const LogoImageWrapper = styled.img`
+  width: 45px;
+  height: 45px;
+`;
