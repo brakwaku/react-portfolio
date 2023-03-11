@@ -30,7 +30,7 @@ const HomeScreen = () => {
         <div className="row">
           <div className="col-md-4 mb-3">
             <div className="card">
-              <img className="card-img-top" src="https://via.placeholder.com/350x150" alt="Card image cap" />
+              <img className="card-img-top" src="https://via.placeholder.com/350x150" alt="Card cap" />
               <div className="card-body">
                 <h5 className="card-title">Song Title</h5>
                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper enim elit, id posuere mauris congue eget. Morbi tincidunt urna ac velit consequat, sit amet finibus metus sollicitudin.</p>
