@@ -1,6 +1,8 @@
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../assets/logo.svg';
-import styled, { keyframes } from 'styled-components';
+import styled
+// { keyframes } 
+from 'styled-components';
 
 const Header = () => {
   return (
