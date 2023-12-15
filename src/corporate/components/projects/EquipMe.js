@@ -77,11 +77,11 @@ const EquipMe = () => {
                 </p>
                 <IconsWrapper>
                     {/* <EachIcon><a href="https://byuibroadcastaudio.herokuapp.com" target="_blank"><img src={live}/></a></EachIcon> */}
-                    <EachIcon><a href="https://github.com/brakwaku/equip-me" target="_blank" rel="noreferrer"><img src={source} alt="Equip Me"/></a></EachIcon>
+                    <EachIcon><a href="https://github.com/brakwaku/EquipMe" target="_blank" rel="noreferrer"><img src={source} alt="Equip Me"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <a href="https://github.com/brakwaku/equip-me" target="_blank" rel="noreferrer">
+                <a href="https://github.com/brakwaku/EquipMe" target="_blank" rel="noreferrer">
                     <PImageWrapper src={equipMeImage} alt="ASKAS Project" />
                 </a>
             </ProjectImageWrapper>

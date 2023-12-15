@@ -85,7 +85,7 @@ const Ananses3m = () => {
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
-                <a href="https://ananses3m.cyclic.app" target="_blank" rel="noreferrer">
+                <a href="https://ananses3m.com" target="_blank" rel="noreferrer">
                     <PImageWrapper src={ananses3mImage} alt="Cloud 9 for life Project" />
                 </a>
             </ProjectImageWrapper>
