@@ -80,8 +80,9 @@ const Ananses3m = () => {
                     React and a Database (MongoDB).
                 </p>
                 <IconsWrapper>
-                    <EachIcon><a href="https://ananses3m.cyclic.app" target="_blank" rel="noreferrer"><img src={live} alt="C9ForLife"/></a></EachIcon>
-                    <EachIcon><a href="https://github.com/brakwaku/ananses3mShop" target="_blank" rel="noreferrer"><img src={source} alt="C9ForLife Github"/></a></EachIcon>
+                    <EachIcon><a href="https://www.ananses3m.com" target="_blank" rel="noreferrer"><img src={live} alt="Ananses3m"/></a></EachIcon>
+                    {/* <EachIcon><a href="https://ananses3m.cyclic.app" target="_blank" rel="noreferrer"><img src={live} alt="Ananses3m"/></a></EachIcon> */}
+                    <EachIcon><a href="https://github.com/brakwaku/ananses3mShop" target="_blank" rel="noreferrer"><img src={source} alt="Ananses3m Github"/></a></EachIcon>
                 </IconsWrapper>
             </DescriptionWrapper>
             <ProjectImageWrapper>
